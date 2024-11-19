@@ -22,8 +22,4 @@
 
 <ul>
   <li text-decoration="none"><a href="#Automation-of-ID-Card-Development-with-QR-CODE">Title and Cover Image</a></li>
-  <li><a href="#objetivo">Objetivo</a></li>
-  <li><a href="#telefone">Telefone</a></li>
-  <li><a href="#casa">Casa</a></li>
-  <li><a href="#estado">Estado</a></li>
 </ul>
