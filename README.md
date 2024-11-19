@@ -38,3 +38,7 @@ The automation was implemented through a web application, which serves as the en
 
 This solution, therefore, seeks to enhance agility, reduce errors, and free up the institution's staff for more strategic activities, ultimately increasing the overall productivity of the administrative office.
 </div>
+
+<div align="center">
+	<img src="https://github.com/user-attachments/assets/16e1e0f3-35e1-4403-95bf-68adc4d78b66" alt="Project Planning">
+</div>
