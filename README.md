@@ -18,8 +18,23 @@
 </div>
 
 
-<h3>Menu</h3>
+<h2>Menu</h2>
 
 <ul>
-  <li text-decoration="none"><a href="#Automation-of-ID-Card-Development-with-QR-CODE">Title and Cover Image</a></li>
+  <li text-decoration="none"><a href="#Automation-of-ID-Card-Development-with-QR-CODE">💳Title</a></li>
+  <li text-decoration="none"><a href="#Project-Planning">📅Project Planning</a></li>
 </ul>
+
+<h2>Project Planning</h2>
+
+<div align="justify">
+📅The project developed by the team aims to automate the process of issuing identification cards for students enrolled in FIC courses (Initial and Continuing Training) at the SENAI Jundiaí unit. Currently, this responsibility falls to the institution's administrative office, and the task is performed entirely manually. This procedure, in addition to being repetitive, requires a considerable amount of the staff's time, negatively impacting the performance of other activities and compromising the office's operational efficiency.
+
+Every 15 days, new FIC course classes are formed, with an average of 20 students enrolled per class. The current process requires staff to issue each student's identification card individually, which is time-consuming and prone to operational errors.
+
+Given these challenges, the team proposed the development of an automation solution based on RPA (Robotic Process Automation) to optimize the card issuance process. This automated solution aims not only to reduce the time spent on this task but also to improve the administrative workflow, allowing staff to focus on other responsibilities.
+
+The automation was implemented through a web application, which serves as the entry point for the process. Staff responsibilities will be simplified to uploading a file containing the new students' data, from which the automated system will efficiently and accurately generate the identification cards.
+
+This solution, therefore, seeks to enhance agility, reduce errors, and free up the institution's staff for more strategic activities, ultimately increasing the overall productivity of the administrative office.
+</div>
