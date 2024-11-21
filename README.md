@@ -23,6 +23,11 @@
 <ul>
   <li text-decoration="none"><a href="#Automation-of-ID-Card-Development-with-QR-CODE">💳Title</a></li>
   <li text-decoration="none"><a href="#Project-Planning">📅Project Planning</a></li>
+  <li text-decoration="none"><a href="#Project-Planning">🎯Project Objectives</a></li>
+	<ul>
+		  <li text-decoration="none"><a href="#Project-Planning">🎯General Objectives of the Project</a></li>
+		  <li text-decoration="none"><a href="#Project-Planning">🎯Specific Objectives of the Project</a></li>
+	</ul>
 </ul>
 
 <h2>Project Planning</h2>
@@ -41,4 +46,63 @@ This solution, therefore, seeks to enhance agility, reduce errors, and free up t
 
 <div align="center">
 	<img src="https://github.com/user-attachments/assets/16e1e0f3-35e1-4403-95bf-68adc4d78b66" alt="Project Planning">
+	<p>Bissoli, Giovana. , PDF file. London: Great Publishing House, 2010. Accessed December 1. 2012, http://www.books.google.com</p>
+</div>
+
+<h2>Project Objectives</h2>
+
+<h3>General Objectives of the Project</h3>
+
+<div align="justify">
+🎯The main objective of this project was to develop an automation solution through RPA (Robotic Process Automation) to streamline the issuance of ID cards for students enrolled in FIC (Initial and Continuing Education) courses at SENAI Jundiaí. The solution aims to reduce the manual workload of the administrative office, speeding up the issuance process and minimizing the time spent on repetitive tasks.
+
+The automation was implemented using a Raspberry Pi 4, a microcomputer that served both as a host for the web application and as a platform to execute the automation scripts. Through this platform, users can upload files containing student data, which will be automatically processed by the RPA to generate the ID cards.
+</div>
+
+<h3>Specific Objectives of the Project</h3>
+
+<div align="justify">
+🎯The project's specific objectives can be divided into the following areas:
+
+<br/>
+<br/>
+
+<ul>
+	<li>RPA (Robotic Process Automation):</li>
+		<ul>
+			<li>Develop a Python script using the Pandas, Selenium, and Pyautogui libraries, each fulfilling a specific function in processing and automation.</li>
+			<li>Create a script capable of opening, manipulating, and processing uploaded files to extract necessary information and automate the ID card issuance process within the institution's systems.</li>
+			<li>Implement a script to return the generated files to the web platform, allowing users to download the finalized ID cards.</li>
+		</ul>
+	<li>Web Platform Development:</li>
+		<ul>
+			<li>Develop a homepage that redirects users to the login screen, ensuring intuitive navigation.</li>
+			<li>Create a login screen that ensures only pre-registered and authorized users can access the automation system.</li>
+			<li>Implement an upload screen where users can submit files containing data of new students enrolling in courses.</li>
+			<li>Develop a download screen, enabling users to download the files generated after completing the automation process.</li>
+			<li>Implement a control mechanism to prevent simultaneous file uploads, avoiding the machine running multiple tasks at the same time and preventing overwriting of ongoing activities.</li>
+		</ul>
+	<li>Use of Raspberry Pi 4:</li>
+		<ul>
+			<li>Use the Raspberry Pi 4 as a server to host the web system.</li>
+			<li>Configure the Raspberry Pi to run the developed automation scripts.</li>
+		</ul>
+	<li>API Development:</li>
+		<ul>
+			<li>Create an API (Application Programming Interface) to enable efficient integration between the website and the automation scripts, ensuring a smooth and secure data flow between the web application and the automation processes.</li>
+		</ul>
+	<li>Automation with Python:</li>
+		<ul>
+			<li>Implement a Python-based solution combining the functionalities of the following libraries:</li>
+				<ul>
+					<li>Pandas: responsible for data manipulation and analysis of the uploaded files.</li>
+					<li>Selenium: used to automate interactions with the ID card issuance system by identifying elements on the website.</li>
+					<li>Pyautogui: responsible for automating actions such as mouse clicks and keyboard inputs, simulating human interaction with the system when needed.</li>
+				</ul>
+		</ul>
+	<li>Security and User Management:</li>
+		<ul>
+			<li>Implement an access control system that allows the administrator (coordinator) to register, list, edit, and remove users, ensuring the security and restricted access to the automation system.</li>
+		</ul>
+</ul>
 </div>
