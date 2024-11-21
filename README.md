@@ -28,6 +28,7 @@
 		  <li text-decoration="none"><a href="#General-Objectives-of-the-Project">🎯General Objectives of the Project</a></li>
 		  <li text-decoration="none"><a href="#Specific-Objectives-of-the-Project">🎯Specific Objectives of the Project</a></li>
 	</ul>
+  <li text-decoration="none"><a href="#Project-Justification">📝Project justification</a></li>
 </ul>
 
 <h2>Project Planning</h2>
@@ -55,8 +56,10 @@ This solution, therefore, seeks to enhance agility, reduce errors, and free up t
 
 <div align="justify">
 🎯The main objective of this project was to develop an automation solution through RPA (Robotic Process Automation) to streamline the issuance of ID cards for students enrolled in FIC (Initial and Continuing Education) courses at SENAI Jundiaí. The solution aims to reduce the manual workload of the administrative office, speeding up the issuance process and minimizing the time spent on repetitive tasks.
-
+<br/>
 The automation was implemented using a Raspberry Pi 4, a microcomputer that served both as a host for the web application and as a platform to execute the automation scripts. Through this platform, users can upload files containing student data, which will be automatically processed by the RPA to generate the ID cards.
+
+At the end of the development, the system is expected to meet the needs of SENAI Jundiaí's administrative office, providing greater efficiency, error reduction, and time savings in activities related to ID card issuance. The implementation of an integrated and automated solution hosted on a Raspberry Pi will offer a low-cost and easy-to-maintain infrastructure, aligning with the project's technical and functional requirements.
 </div>
 
 <h3>Specific Objectives of the Project</h3>
@@ -68,13 +71,13 @@ The automation was implemented using a Raspberry Pi 4, a microcomputer that serv
 <br/>
 
 <ul>
-	<li>RPA (Robotic Process Automation):</li>
+	<li><b>RPA (Robotic Process Automation):</b></li>
 		<ul>
 			<li>Develop a Python script using the Pandas, Selenium, and Pyautogui libraries, each fulfilling a specific function in processing and automation.</li>
 			<li>Create a script capable of opening, manipulating, and processing uploaded files to extract necessary information and automate the ID card issuance process within the institution's systems.</li>
 			<li>Implement a script to return the generated files to the web platform, allowing users to download the finalized ID cards.</li>
 		</ul>
-	<li>Web Platform Development:</li>
+	<li><b>Web Platform Development:</b></li>
 		<ul>
 			<li>Develop a homepage that redirects users to the login screen, ensuring intuitive navigation.</li>
 			<li>Create a login screen that ensures only pre-registered and authorized users can access the automation system.</li>
@@ -82,16 +85,16 @@ The automation was implemented using a Raspberry Pi 4, a microcomputer that serv
 			<li>Develop a download screen, enabling users to download the files generated after completing the automation process.</li>
 			<li>Implement a control mechanism to prevent simultaneous file uploads, avoiding the machine running multiple tasks at the same time and preventing overwriting of ongoing activities.</li>
 		</ul>
-	<li>Use of Raspberry Pi 4:</li>
+	<li><b>Use of Raspberry Pi 4:</b></li>
 		<ul>
 			<li>Use the Raspberry Pi 4 as a server to host the web system.</li>
 			<li>Configure the Raspberry Pi to run the developed automation scripts.</li>
 		</ul>
-	<li>API Development:</li>
+	<li><b>API Development:</b></li>
 		<ul>
 			<li>Create an API (Application Programming Interface) to enable efficient integration between the website and the automation scripts, ensuring a smooth and secure data flow between the web application and the automation processes.</li>
 		</ul>
-	<li>Automation with Python:</li>
+	<li><b>Automation with Python:</b></li>
 		<ul>
 			<li>Implement a Python-based solution combining the functionalities of the following libraries:</li>
 				<ul>
@@ -100,9 +103,29 @@ The automation was implemented using a Raspberry Pi 4, a microcomputer that serv
 					<li>Pyautogui: responsible for automating actions such as mouse clicks and keyboard inputs, simulating human interaction with the system when needed.</li>
 				</ul>
 		</ul>
-	<li>Security and User Management:</li>
+	<li><b>Security and User Management:</b></li>
 		<ul>
 			<li>Implement an access control system that allows the administrator (coordinator) to register, list, edit, and remove users, ensuring the security and restricted access to the automation system.</li>
 		</ul>
 </ul>
+</div>
+
+<h2>Project justification</h2>
+
+<div align="justify">
+📝The decision to develop an RPA (Robotic Process Automation) for issuing ID cards for students of SENAI Jundiaí's FIC (Initial and Continuing Education) courses is based on the need to optimize the administrative processes of the institution's office.
+
+With this automation, it will be possible to eliminate the need for manual interventions in much of the process. This will enable:
+
+<ul>
+	<li><b>Reduction in execution time:</b> The ID card issuance process will be significantly accelerated, allowing administrative staff to focus on other essential tasks.</li>
+	<li><b>Minimization of human errors:</b> By automating data transcription, the project aims to reduce errors commonly found in manual processes, such as incorrect input of student information.</li>
+	<li><b>Increased operational efficiency:</b> Automation will enable ID cards to be generated more quickly and efficiently, ensuring a more agile response to the demands of regularly enrolling classes.</li>	
+</ul>
+
+Additionally, this project aligns with the growing trend of process digitization and automation in educational and administrative institutions. Implementing an RPA modernizes internal processes, fostering a more technological work environment, which is crucial for the competitiveness and efficiency of educational institutions in the 21st century.
+
+Another significant aspect is that this project represents an opportunity for the team to practically apply the knowledge acquired throughout the technical course. The combination of automation, web development, and hosting on a Raspberry Pi allows the team to not only enhance their technical skills but also directly contribute to improving the institution's processes.
+
+Finally, the impact of this project extends beyond the institution itself. The developed automation has the potential to be replicated in other schools and organizations facing similar challenges, creating a legacy that can promote operational efficiency on a broader scale. Thus, this project is justified not only by addressing an immediate need but also by its strategic and innovative value within and beyond SENAI Jundiaí.
 </div>
