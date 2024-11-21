@@ -23,10 +23,10 @@
 <ul>
   <li text-decoration="none"><a href="#Automation-of-ID-Card-Development-with-QR-CODE">💳Title</a></li>
   <li text-decoration="none"><a href="#Project-Planning">📅Project Planning</a></li>
-  <li text-decoration="none"><a href="#Project-Planning">🎯Project Objectives</a></li>
+  <li text-decoration="none"><a href="#Project-Objectives">🎯Project Objectives</a></li>
 	<ul>
-		  <li text-decoration="none"><a href="#Project-Planning">🎯General Objectives of the Project</a></li>
-		  <li text-decoration="none"><a href="#Project-Planning">🎯Specific Objectives of the Project</a></li>
+		  <li text-decoration="none"><a href="#General-Objectives-of-the-Project">🎯General Objectives of the Project</a></li>
+		  <li text-decoration="none"><a href="#Specific-Objectives-of-the-Project">🎯Specific Objectives of the Project</a></li>
 	</ul>
 </ul>
 
