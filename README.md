@@ -29,6 +29,7 @@
 		  <li text-decoration="none"><a href="#Specific-Objectives-of-the-Project">🎯Specific Objectives of the Project</a></li>
 	</ul>
   <li text-decoration="none"><a href="#Project-Justification">📝Project justification</a></li>
+  <li text-decoration="none"><a href="#Project-Justification">⚙Methodology</a></li>
 </ul>
 
 <h2>Project Planning</h2>
@@ -129,3 +130,21 @@ Another significant aspect is that this project represents an opportunity for th
 
 Finally, the impact of this project extends beyond the institution itself. The developed automation has the potential to be replicated in other schools and organizations facing similar challenges, creating a legacy that can promote operational efficiency on a broader scale. Thus, this project is justified not only by addressing an immediate need but also by its strategic and innovative value within and beyond SENAI Jundiaí.
 </div>
+
+<h2>Methodology</h2>
+
+<ul>
+	<li>Programming Language</li>
+</br>
+		<ul>
+			<li><b>Python v. 3.12.4</b></li>
+			</br>
+			<p align="justify">
+Python is an open-source programming language widely recognized for its versatility and simple syntax, making it suitable for a broad range of projects, from small automations to large corporate systems. The language is free and accessible to the public, contributing to its popularity and the continuous growth of its developer community. Moreover, Python features an extensive standard library, which, when combined with third-party frameworks, offers a flexible, agile, and efficient development environment.
+
+One of Python's main advantages is its ability to easily integrate with other programming languages, enabling the development of hybrid solutions that combine the best of different technological environments.
+
+Additionally, as shown in the analysis presented in Figure 1, Python excels in resource consumption, such as CPU and RAM, compared to other languages. This makes it particularly suitable for use in hardware-limited environments like the Raspberry Pi, ensuring efficient operation without overloading system resources.</p>
+			<img src="https://github.com/user-attachments/assets/16e1e0f3-35e1-4403-95bf-68adc4d78b66" alt="Project Planning">
+		</ul>
+</ul>
