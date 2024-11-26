@@ -414,14 +414,18 @@ The agile methodology Scrum proposes the organized and efficient collaboration o
 					</br>
 					<p align="justify">
  <b>- Product Owner (PO):</b> Responsible for maximizing the value of the product for the customer by establishing and prioritizing the most important tasks, ensuring that the team is focused on what is most critical.
+						</br>	
  <b>- Scrum Master:</b> Acts as a facilitator, ensuring the team follows Scrum practices and helping to remove any obstacles that might hinder progress. They also protect the team from external distractions.
+					</br>	
  <b>- Development Team:</b> A self-organizing and cross-functional group that includes developers, designers, quality control professionals, and others. The team is responsible for transforming the priorities set by the PO into deliverable functionalities.
 		</p>
 					<li id="Events in Scrum"><b>Events in Scrum</b></li>
 					</br>
 					<p align="justify">
 <b>- Sprint:</b> Fixed-length work cycles during which a predefined set of tasks is completed and delivered. The goal of each sprint is to deliver a functional part of the product.
+				</br>						
 <b>- Daily Scrum:</b> Quick daily meetings where the team synchronizes the work from the previous day, discusses challenges, and plans what will be done in the next 24 hours.
+					</br>	
 <b>- Sprint Review:</b> A meeting held at the end of each sprint to review what was completed and adjust the backlog based on customer feedback and new project priorities. Progress is demonstrated to stakeholders.
 		</p>
 				</ul>
