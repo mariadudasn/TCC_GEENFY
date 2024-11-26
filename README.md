@@ -61,6 +61,15 @@
 				<ul>
 					<li><a href="#Firefox">🦊Firefox</a></li>
 				</ul>
+			<li><a href="#Prototype">🖍Prototype</a></li>
+				<ul>
+					<li><a href="#Figma">🧾Figma</a></li>
+				</ul>
+			<li><a href="#Organization">📦Organization</a></li>
+				<ul>
+					<li><a href="#Trello">📆Trello</a></li>
+					<li><a href="#Notion">📅Notion</a></li>
+				</ul>
 		</ul>
 </ul>
 
@@ -349,4 +358,38 @@ Compared to other popular browsers, Firefox stands out for its strong privacy an
 
 Another distinctive feature of Mozilla Firefox is its extensive catalog of extensions and advanced features, such as an internal tool for taking screenshots, support for watching videos in picture-in-picture mode, and an integrated PDF reader. The tab browsing experience is customizable, and the browser also supports configurable push notifications, giving users greater control over their browsing experience. With support for over 90 languages and optimized performance, Firefox remains a popular choice among users who prioritize privacy, security, and a feature-rich interface.</p>
 	</ul>
+ 	<li id="Prototype"><b>Prototype</b></li>
+  </br>
+	  	<ul>
+			<li id="Figma"><b>Figma</b></li>
+			</br>
+			<p align="justify">
+Figma is a collaborative platform designed for creating prototypes and user interface (UI) and user experience (UX) designs, for both web applications and local applications. One of Figma's main differentiators is the ability for multiple users to work simultaneously on the same project, which facilitates collaborative and real-time development.
+
+The platform also offers the creation of reusable components, such as buttons, icons, and other interface elements, ensuring greater visual consistency and saving time throughout the project. Additionally, Figma integrates easily with other popular tools such as Slack, JIRA, and developer design platforms, enhancing workflow efficiency and facilitating communication between design and development teams.
+
+Another important aspect is the version history, which allows users to track and revert changes, providing security in the project’s development. This ensures that all previous versions can be recovered if needed, preventing the loss of work or implementation errors.</p>
+		</ul>
+ 	<li id="Organization"><b>Organization</b></li>
+  </br>
+	  	<ul>
+			<li id="Trello"><b>Trello</b></li>
+			</br>
+			<p align="justify">
+Trello is a project management platform based on the Kanban methodology, which allows users to organize tasks, collaborate as a team, and track progress in a visual and intuitive way. Its main feature is the creation of “boards,” which represent different projects or work areas. Each board can be fully customized according to the project’s needs, allowing users to visually represent the workflow and break down tasks into clear stages.
+
+Within each board, users can create “lists” that reflect the progress of tasks or different phases of the project, such as “To Do,” “In Progress,” and “Done.” The lists are used to organize “cards,” which represent individual tasks or action items. These cards are highly customizable and can contain detailed descriptions, checklists, deadlines, attachments, color-coded labels to categorize activities, and comments to facilitate communication among team members.
+
+One of Trello's biggest advantages is its simple and highly visual interface, which makes it easy to understand the current status of any project. Additionally, the platform offers integrations with various productivity tools like Slack, Google Drive, and Dropbox, making it easier for teams to collaborate, especially in remote work environments. Trello also allows the use of "Power-Ups," which are extensions and additional features that expand the tool’s capabilities, such as automating repetitive tasks with Butler, generating custom reports, and integrating with other platforms.</p>
+			<li id="Notion"><b>Notion</b></li>
+			</br>
+			<p align="justify">
+Notion is a multifunctional organizational tool that combines various features such as note-taking, task management, project organization, and even database creation. Its flexibility allows both individual users and teams to utilize the platform for a wide range of activities, from creating simple lists to managing complex projects.
+
+One of Notion's key differentiators is the ability to collaborate in real time. Multiple users can edit the same page simultaneously, making it ideal for teamwork and projects that require constant interaction. Additionally, Notion offers detailed permission controls, allowing users to define who can view, edit, or comment on each page or workspace.
+
+The platform also stands out for its customization options. Virtually all the features available in Notion can be tailored to meet the specific needs of users. This includes creating custom layouts, using templates, building task tracking systems, and automating workflows.
+
+Furthermore, Notion integrates with several other popular tools and services such as Google Drive, Slack, Trello, among others, which facilitates the centralization of information and the connection between different work platforms. This integration increases efficiency in information management and makes collaboration among distributed teams easier.</p>
+		</ul>
 </ul>
