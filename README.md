@@ -149,7 +149,7 @@ Finally, the impact of this project extends beyond the institution itself. The d
 	<li id="Programming-Language"><b>Programming Language</b></li>
 </br>
 		<ul>
-			<li><b>Python v. 3.12.4</b></li>
+			<li id="Python-v-3-12-4"><b>Python v. 3.12.4</b></li>
 			</br>
 			<p align="justify">
 Python is an open-source programming language widely recognized for its versatility and simple syntax, making it suitable for a broad range of projects, from small automations to large corporate systems. The language is free and accessible to the public, contributing to its popularity and the continuous growth of its developer community. Moreover, Python features an extensive standard library, which, when combined with third-party frameworks, offers a flexible, agile, and efficient development environment.
@@ -170,7 +170,7 @@ Thus, the use of Python in the development of this project is justified by its e
 				<img width="500" src="https://github.com/user-attachments/assets/fdb904ae-d0b8-46f6-89f9-33f91e5e6faa" alt="Comparison between Java and Python">
 	   			<p>Figure 2. Comparison between Java and Python. Source: https://www.penser.co.uk/article/building-a-strong-base-best-fintech-backend-platforms/</p>
        			</div>
-	  		<li><b>JavaScript</b></li>
+	  		<li id="JavaScript"><b>JavaScript</b></li>
 			</br>
    			<p align="justify">
 O JavaScript é uma linguagem de programação amplamente utilizada na web para adicionar dinamismo e interatividade às páginas. Enquanto HTML estrutura o conteúdo e CSS define a aparência, o JavaScript traz vida às páginas, permitindo a criação de funcionalidades complexas, como animações, validações de formulários, atualizações em tempo real e interações personalizadas do usuário.
@@ -183,10 +183,10 @@ Outra característica importante é a integração com outras tecnologias. O Jav
 
 Por fim, o JavaScript é uma linguagem inclusiva e adaptável, sendo usada desde projetos simples até aplicações complexas. Sua presença onipresente na web e seu papel no desenvolvimento de experiências interativas e responsivas fazem do JavaScript uma peça-chave no mundo da tecnologia e um recurso indispensável para desenvolvedores que desejam criar soluções inovadoras e centradas no usuário.</p>
 		</ul>
-	<li><b>Markup Language<b></li>
+	<li id="Markup-Language"><b>Markup Language<b></li>
  </br>
 		<ul>
-			<li><b>HTML5</b></li>
+			<li id="HTML5"><b>HTML5</b></li>
 			</br>
 			<p align="justify">
 HTML (*HyperText Markup Language*) is a markup language for the web used to structure and organize the content of internet pages. With a variety of *tags*, developers can define how different types of content, such as headings, paragraphs, images, lists, and links, will be displayed in browsers. This language is widely recognized as the standard for building virtually all websites we access, playing a fundamental role in presenting all the elements that make up a page in a coherent manner.
@@ -198,7 +198,7 @@ Moreover, HTML stands out for its flexibility, as it easily integrates with othe
 Another essential aspect of HTML is accessibility. When used correctly, with semantic elements and proper attributes, HTML ensures that screen readers and other assistive devices can effectively interpret the content. This is crucial for making web pages more inclusive for people with visual impairments or other special needs.
 
 In summary, HTML is a markup language that serves as the foundation for building websites and integrates seamlessly with other technologies. Its ability to promote accessibility and compatibility across various platforms makes HTML an essential tool for developers and designers, helping them create effective and accessible web experiences for everyone.</p>
-			<li><b>CSS3</b></li>
+			<li id="CSS3"><b>CSS3</b></li>
 			</br>
 			<p align="justify">
 CSS (Cascading Style Sheets) is a design language used to style web pages structured with markup languages like HTML. It allows developers to define colors, sizes, shapes, spacing, fonts, and various other visual aspects, creating a unique look for websites. Beyond enhancing design, CSS enables control over a page's responsiveness—its ability to adapt to different screen sizes—ensuring a seamless experience across devices like smartphones, tablets, and computers.
