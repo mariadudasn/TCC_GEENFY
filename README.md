@@ -50,7 +50,7 @@
 				<ul>
 					<li><a href="#Selenium-4-0">✅Selenium 4.0</a></li>
 					<li><a href="#PyAutoGUI-0-9-54">⌨PyAutoGUI 0.9.54</a></li>
-					<li><a href="#Pandas">🐼Pandas</a></li>
+					<li><a href="#Openpyxl">🟩Openpyxl</a></li>
 					<li><a href="#Django-Rest-Framework">📁Django Rest Framework</a></li>
 					<li><a href="#OS">🐍OS</a></li>
 					<li><a href="#Subprocess">🔄Subprocess</a></li>
@@ -213,7 +213,7 @@ Thus, the use of Python in the development of this project is justified by its e
 				<img width="500" src="https://github.com/user-attachments/assets/fdb904ae-d0b8-46f6-89f9-33f91e5e6faa" alt="Comparison between Java and Python">
 	   			<p>Figure 2. Comparison between Java and Python. Source: https://www.penser.co.uk/article/building-a-strong-base-best-fintech-backend-platforms/</p>
        			</div>
-	  		<li id="JavaScript"><b>JavaScript</b></li>
+	  		<li id="JavaScript"><b>JavaScript - ECMAScript 2023</b></li>
 			</br>
    			<p align="justify">
 O JavaScript é uma linguagem de programação amplamente utilizada na web para adicionar dinamismo e interatividade às páginas. Enquanto HTML estrutura o conteúdo e CSS define a aparência, o JavaScript traz vida às páginas, permitindo a criação de funcionalidades complexas, como animações, validações de formulários, atualizações em tempo real e interações personalizadas do usuário.
@@ -303,18 +303,16 @@ One of the major advantages of PyAutoGUI is its ease of use, even in projects th
 The PyAutoGUI screenshot feature is valuable for validating on-screen elements, allowing for the identification of icons, buttons, or other graphical components. Additionally, it helps in debugging automated processes, assisting developers in understanding whether automated actions are being performed as expected.
 
 Another advantage of the library is its portability, working on operating systems such as Windows, macOS, and Linux. This broadens its use across different environments and enables the creation of cross-platform scripts. While it may not be the best solution for automating complex or large-scale applications, PyAutoGUI is perfect for simpler tasks and routines that require repetitive user interaction.</p>
-			<li id="Pandas"><b>Pandas</b></li>
+			<li id="Openpyxl"><b>Openpyxl</b></li>
 			</br>
 			<p align="justify">
-Pandas is an open-source library in Python widely used for data analysis and manipulation. With its powerful data structures, Pandas makes it easy to work with data in formats such as tables, time series, and large volumes of structured data. It is essential for data scientists, analysts, and developers who work with data and need tools for cleaning, transforming, and analyzing it.
+Openpyxl is a widely used Python library for manipulating Excel files. Its main functionality is to enable operations such as creating, reading, editing, and styling spreadsheets programmatically, without the need to install the Excel software. This tool proves to be a versatile resource, especially applied in automation and data analysis projects.
 
-One of the main structures in Pandas is the DataFrame, which can be thought of as a two-dimensional table, composed of rows and columns, similar to an Excel spreadsheet or a database table. The DataFrame is highly efficient and flexible, allowing you to store, manipulate, and analyze large datasets quickly and effectively. It also supports indexing, which makes it easier to organize and access specific data intuitively.
+The flexibility of Openpyxl is one of its most notable features. The library allows the creation of new spreadsheets, modification of specific cells, and styling of content, enabling the application of colors, formats, and fonts that contribute to the visual organization of spreadsheets. Additionally, Openpyxl supports the insertion of charts directly into the Excel file, which can be very useful for visual reports.
 
-Pandas stands out for its ability to handle missing or incomplete data, a common task when working with real-world datasets. With specific functions, it is possible to identify, replace, or remove missing values efficiently. Additionally, it allows you to perform complex operations, such as data grouping, aggregation, merging (joining different datasets), and filtering data with simple Python code.
+Regarding data processing, Openpyxl excels in handling large volumes of information, providing search, filtering, and calculation operations within spreadsheets, which enables the automated processing and organization of data. The library also supports the reading and execution of formulas present in spreadsheets, enabling the processing of files containing complex calculations.
 
-Another advantage of Pandas is its integration with other popular libraries in the Python ecosystem, such as NumPy (for numerical calculations), Matplotlib and Seaborn (for data visualization), and SciPy (for scientific computing). This allows Pandas to be used as a central part of a data analysis workflow, where data manipulation and preparation are done with Pandas, while numerical analysis and graphical visualizations are performed with other tools.
-
-Furthermore, Pandas supports various input and output formats, such as CSV files, Excel, SQL, JSON, among others, which facilitates the import and export of data from different sources. This makes Pandas an essential tool for working with data in Python.</p>
+Another relevant aspect is Openpyxl's efficiency when dealing with large-scale datasets, making it an excellent option for integration with management systems and process automation. In projects where Excel is used for periodic reports or analysis, Openpyxl simplifies the generation of these files directly within the system, allowing seamless integration with platforms such as Django, for example.</p>
 			<li id="Django-Rest-Framework"><b>Django Rest Framework</b></li>
 			</br>
 			<p align="justify">
@@ -526,3 +524,49 @@ Additionally, Kanban encourages the use of Work In Progress (WIP) limits, which 
 		</p>
 </ul>
 
+<h2>Architecture</h2>
+
+<ul>
+	<li id="Entity-Relationship Diagram"><b>Entity-Relationship Diagram</b></li>
+</br>
+	<div align="center"><img src="https://github.com/user-attachments/assets/5ca2f5f0-4f40-4f76-a1cc-01954f9ede0e" alt="Entity-Relationship Diagram" width="400"></div>
+	<b>User Authentication Tables</b>
+</br>
+		<ol style="list-style-type: decimal;">
+			<li>auth_user:
+				<ul>
+					<li>This table is essential for managing system users. It stores information such as:
+						<ul>
+							<li>Username: The unique identifier for each individual in the system.</li>
+							<li>Password: The user's password, encrypted for security purposes.</li>
+							<li>Administrator Status: Defines whether the user is an administrator (with full control) or a regular user with limited permissions.</li>
+							<li>Login Date: The last time the user accessed the system.</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</br>
+   			<li>auth_group:</li>
+				<ul>
+					<li>To organize users, the system uses groups. For example, one group may be for administrators and another for regular users. This simplifies permission management within the system.</li>
+				</ul>
+				</br>
+			<li>auth_user_groups:</li>
+				<ul>
+					<li>Since a user can belong to multiple groups (e.g., "Administrator" and "Manager"), this table connects users to their respective groups. This allows the system to easily verify which group a user belongs to and control what they can or cannot do within the platform.</li>
+				</ul>
+		</ol>
+  <b>System-Specific Tables</b>
+  </br>
+	<p>These tables are related to specific system functionalities that users directly interact with, such as file management, registrations, and classes.</p>
+  	<ol>
+		<li>
+			<ul>
+				<li>geenfy_usuario:
+					<ul>
+						<li>Stores login information for external systems. This is useful if the system needs to access other platforms (e.g., third-party systems) by securely storing credentials like login and password.</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ol>
