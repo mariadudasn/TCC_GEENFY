@@ -183,7 +183,7 @@ Outra característica importante é a integração com outras tecnologias. O Jav
 
 Por fim, o JavaScript é uma linguagem inclusiva e adaptável, sendo usada desde projetos simples até aplicações complexas. Sua presença onipresente na web e seu papel no desenvolvimento de experiências interativas e responsivas fazem do JavaScript uma peça-chave no mundo da tecnologia e um recurso indispensável para desenvolvedores que desejam criar soluções inovadoras e centradas no usuário.</p>
 		</ul>
-	<li id="Markup-Language"><b>Markup Language<b></li>
+	<li id="Markup-Language"><b>Markup Language</b></li>
  </br>
 		<ul>
 			<li id="HTML5"><b>HTML5</b></li>
