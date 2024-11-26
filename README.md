@@ -70,6 +70,15 @@
 					<li><a href="#Trello">📆Trello</a></li>
 					<li><a href="#Notion">📅Notion</a></li>
 				</ul>
+			<li><a href="Methodologies">📦Methodologies</a></li>
+				<ul>
+					<li><a href="#Scrum">📆Scrum</a></li>
+						<ul>
+							<li><a href="#Roles in Scrum">📆Roles in Scrum</a></li>
+							<li><a href="#Events in Scrum">📅Events in Scrum</a></li>
+						</ul>
+					<li><a href="#Kanban">📅Kanban</a></li>
+				</ul>
 		</ul>
 </ul>
 
@@ -392,4 +401,45 @@ The platform also stands out for its customization options. Virtually all the fe
 
 Furthermore, Notion integrates with several other popular tools and services such as Google Drive, Slack, Trello, among others, which facilitates the centralization of information and the connection between different work platforms. This integration increases efficiency in information management and makes collaboration among distributed teams easier.</p>
 		</ul>
+ 	<li id="Methodologies"><b>Methodologies</b></li>
+  </br>
+  	  	<ul>
+			<li id="Scrum"><b>Scrum</b></li>
+			</br>
+			<p align="justify">
+The agile methodology Scrum proposes the organized and efficient collaboration of all project members, with the goal of delivering a high-quality product. Scrum is ideal for dynamic and complex environments, where requirements can change rapidly and flexibility is needed to adapt to new demands. It is based on a set of roles, events, and artifacts that facilitate agile development.
+</p>
+				<ul>
+					<li id="Roles in Scrum"><b>Roles in Scrum</b></li>
+					</br>
+					<p align="justify">
+ <b>- Product Owner (PO):</b> Responsible for maximizing the value of the product for the customer by establishing and prioritizing the most important tasks, ensuring that the team is focused on what is most critical.
+ <b>- Scrum Master:</b> Acts as a facilitator, ensuring the team follows Scrum practices and helping to remove any obstacles that might hinder progress. They also protect the team from external distractions.
+ <b>- Development Team:</b> A self-organizing and cross-functional group that includes developers, designers, quality control professionals, and others. The team is responsible for transforming the priorities set by the PO into deliverable functionalities.
+		</p>
+					<li id="Events in Scrum"><b>Events in Scrum</b></li>
+					</br>
+					<p align="justify">
+<b>- Sprint:</b> Fixed-length work cycles during which a predefined set of tasks is completed and delivered. The goal of each sprint is to deliver a functional part of the product.
+<b>- Daily Scrum:</b> Quick daily meetings where the team synchronizes the work from the previous day, discusses challenges, and plans what will be done in the next 24 hours.
+<b>- Sprint Review:</b> A meeting held at the end of each sprint to review what was completed and adjust the backlog based on customer feedback and new project priorities. Progress is demonstrated to stakeholders.
+		</p>
+				</ul>
+    <p align="justify">With the Scrum method, the entire team has access to the progress of the project, which increases trust, productivity, and ensures that everyone's expectations are aligned. Since the development process is done in stages and incrementally, problems are identified early, allowing for rapid changes that address software issues and customer needs. Additionally, the development team can focus on the most important features for the customer, as the PO has direct communication with the customer and sets the priorities.</p>
+			<li id="Kanban"><b>Kanban</b></li>
+			</br>
+			<p align="justify">
+Kanban is a tool used to manage workflow, widely used in work environments that require greater agility and a continuous flow, such as software production. The visualization is done through a board that is divided into columns, which in turn represent the various stages of the work process, such as "To Do," "In Progress," and "Done." Tasks are represented by cards on the board, where information related to the activity is displayed, such as the description, project owner, and the time set for completion.
+
+The agile methodology *Scrum* proposes the organized and efficient collaboration of all project members, with the goal of delivering a high-quality product incrementally. *Scrum* is ideal for dynamic and complex environments, where requirements can change quickly, and flexibility is needed to adapt to new demands. It is based on a set of roles, events, and artifacts that facilitate agile development.
+
+Kanban is a visual workflow management methodology, widely used in environments that require agility and efficiency, such as software development, industrial production, and even project management. Its primary goal is to optimize the workflow, allowing teams to visualize task progress and identify bottlenecks, promoting continuous improvement.
+
+Visualization occurs through a Kanban board, which is divided into columns, each representing different stages of the process. These columns, commonly labeled as "To Do," "In Progress," and "Done," reflect the current state of tasks. Each task is represented by a card, which contains important information such as the task description, the person responsible for the project, deadlines, and, in some cases, priority and complexity.
+
+Additionally, Kanban encourages the use of Work In Progress (WIP) limits, which helps prevent the accumulation of tasks in a single stage, maintaining a continuous and balanced flow. Another key point is adaptability: Kanban can be easily adjusted to meet the specific needs of different teams and departments, allowing organizations to evolve and optimize their processes in an agile manner.
+			</p>
+    </ul>
+
+	  
 </ul>
