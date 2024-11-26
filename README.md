@@ -31,15 +31,15 @@
   <li text-decoration="none"><a href="#Project-Justification">📝Project justification</a></li>
   <li text-decoration="none"><a href="#Methodology">⚙Methodology</a></li>
 		<ul>
-		  <li text-decoration="none"><a href="#Programming-Language">💻Programming Language</a></li>
+		  <li><a href="#Programming-Language">💻Programming Language</a></li>
 			<ul>
-				<li text-decoration="none"><a href="#Python-v.-3.12.4">🐍Python v. 3.12.4</a></li>
-				<li text-decoration="none"><a href="#JavaScript">☕JavaScript</a></li>
+				<li><a href="#Python-v.-3.12.4">🐍Python v. 3.12.4</a></li>
+				<li><a href="#JavaScript">☕JavaScript</a></li>
 			</ul>	
-		  <li text-decoration="none"><a href="#Markup-Language">🖱Markup Language</a></li>
+		  <li><a href="#Markup-Language">🖱Markup Language</a></li>
 			<ul>
-				<li text-decoration="none"><a href="#HTML5">📄HTML5</a></li>
-				<li text-decoration="none"><a href="#CSS3">📱CSS3</a></li>
+				<li><a href="#HTML5">📄HTML5</a></li>
+				<li><a href="#CSS3">📱CSS3</a></li>
 			</ul>	
 		</ul>
 </ul>
