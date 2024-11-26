@@ -31,9 +31,9 @@
   <li text-decoration="none"><a href="#Project-Justification">📝Project justification</a></li>
   <li text-decoration="none"><a href="#Methodology">⚙Methodology</a></li>
 		<ul>
-		  <li text-decoration="none"><a href="#Programming Language">💻Programming Language</a></li>
+		  <li text-decoration="none"><a href="#Programming-Language">💻Programming Language</a></li>
 			<ul>
-				<li text-decoration="none"><a href="#Python v. 3.12.4">🐍Python v. 3.12.4</a></li>
+				<li text-decoration="none"><a href="#Python-v.-3.12.4">🐍Python v. 3.12.4</a></li>
 				<li text-decoration="none"><a href="#JavaScript">☕JavaScript</a></li>
 			</ul>	
 		  <li text-decoration="none"><a href="#Specific-Objectives-of-the-Project">🖱Markup Language</a></li>
