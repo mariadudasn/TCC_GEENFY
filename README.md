@@ -80,6 +80,11 @@
 					<li><a href="#Kanban">🗓Kanban</a></li>
 				</ul>
 		</ul>
+	<li text-decoration="none"><a href="#Requirements-Gathering">🗒Requirements Gathering</a></li>
+		<ul>
+			<li><a href="#Functional Requirements">🟢Functional Requirements</a></li>
+			<li><a href="#Non-Functional Requirements">🔴Non-Functional Requirements</a></li>
+		</ul>
 </ul>
 
 <h2>Project Planning</h2>
@@ -443,7 +448,81 @@ Visualization occurs through a Kanban board, which is divided into columns, each
 
 Additionally, Kanban encourages the use of Work In Progress (WIP) limits, which helps prevent the accumulation of tasks in a single stage, maintaining a continuous and balanced flow. Another key point is adaptability: Kanban can be easily adjusted to meet the specific needs of different teams and departments, allowing organizations to evolve and optimize their processes in an agile manner.
 			</p>
-    </ul>
-
-	  
+    </ul>  
 </ul>
+
+<h2>Requirements Gathering</h2>
+
+<ul>
+	<li id="Functional Requirements"><b>Functional Requirements</b></li>
+</br>
+		<p align="justify">
+[RF001] The system must allow users (coordinators and staff) to log in to the platform.
+
+[RF002] The system must allow coordinators to register new users.
+
+[RF003] The system must enable users (coordinators and staff) to upload .xlsx files.
+
+[RF004] The system must allow users (coordinators and staff) to view their profile information.
+
+[RF005] The system must allow users (coordinators and staff) to edit their profile information.
+
+[RF006] The system must display the status of the identification card creation process for each class.
+
+[RF007] On the page tracking the identification card creation process, the system must allow users to start the card generation for pending classes.
+
+[RF008] On the page tracking the identification card creation process, the system must allow users to delete pending classes from the card generation queue.
+
+[RF009] On the page tracking the identification card creation process, the system must allow users to download the identification cards in PDF format after they have been issued.
+
+[RF010] The system must store the identification cards in a folder on local storage.
+
+[RF011] On the storage page, the system must allow users to download the identification cards for classes with completed processes.
+
+[RF012] On the storage page, the system must allow users to delete classes whose identification cards have been finalized.
+
+[RF013] The coordinator must be able to list, edit, and delete other users' profiles.
+
+[RF014] If an identification card creation process is in progress, the system must block the possibility of starting a new process until the previous one is completed.
+
+[RF015] The system must be able to access the websites that issue the cards via URLs.
+
+[RF016] The system must be able to access HTML elements (tags) on external websites to perform specific data extraction functions.
+
+[RF017] The system must prevent the start of a new activity while a previous one is still in progress.
+
+[RF018] The system must send clear and informative notifications to users when the issuance process is completed.
+
+[RF019] The system must send clear and detailed notifications to users in case of an error during the issuance process.
+		</p>
+  	<li id="Non-Functional Requirements"><b>Non-Functional Requirements</b></li>
+</br>
+		<p align="justify">
+[RNF001] The system must be implemented using the Python language.
+
+[RNF002] The system must use the Selenium library.
+
+[RNF003] Only coordinators and staff from the secretariat will have access to this system.
+
+[RNF004] The interface to view the status must update in real-time.
+
+[RNF005] The system must be designed in such a way that new functionalities can be added in the future.
+
+[RNF006] The interface must be intuitive and easy to use.
+
+[RNF007] The system must have a low failure rate.
+
+[RNF008] The website must be compatible with the necessary computers.
+
+[RNF009] The system must be optimized to run on the Raspberry Pi 4, ensuring that the hardware has enough capacity to run both the web server and the automation scripts.
+
+[RNF011] The system must store locally the generated and processed files, allowing periodic backups to ensure data integrity.
+
+[RNF013] The system’s security must be ensured with access controls and authentication, protecting sensitive student and user data.
+
+[RNF014] Notifications sent by the system must be delivered in a timely manner, not exceeding 30 seconds after the completion of a process or error.
+
+[RNF015] It should not be allowed to access pages directly through URLs.
+		</p>
+</ul>
+
