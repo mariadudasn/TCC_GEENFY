@@ -53,6 +53,8 @@
 					<li><a href="#Django-Rest-Framework">Django Rest Framework</a></li>
 					<li><a href="#OS">OS</a></li>
 					<li><a href="#Subprocess">Subprocess</a></li>
+					<li><a href="#Threading">Threading</a></li>
+					<li><a href="#Pathlib">Pathlib</a></li>
 				</ul>
 		</ul>
 </ul>
