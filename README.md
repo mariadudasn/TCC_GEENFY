@@ -44,17 +44,22 @@
 			<li><a href="#Framework">🖥Framework</a></li>
 				<ul>
 					<li><a href="#Django-5-0-7">📌Django 5.0.7</a></li>
+					<li><a href="#Cypress">▶Cypress</a></li>
 				</ul>
 			<li><a href="#Libraries">📕Libraries</a></li>
 				<ul>
 					<li><a href="#Selenium-4-0">✅Selenium 4.0</a></li>
 					<li><a href="#PyAutoGUI-0-9-54">⌨PyAutoGUI 0.9.54</a></li>
-					<li><a href="#Openpyxl">📊Openpyxl</a></li>
+					<li><a href="#Pandas">🐼Pandas</a></li>
 					<li><a href="#Django-Rest-Framework">📁Django Rest Framework</a></li>
 					<li><a href="#OS">🐍OS</a></li>
 					<li><a href="#Subprocess">🔄Subprocess</a></li>
 					<li><a href="#Threading">〰Threading</a></li>
 					<li><a href="#Pathlib">🗺Pathlib</a></li>
+				</ul>
+			<li><a href="#Browsers">🌏Browsers</a></li>
+				<ul>
+					<li><a href="#Firefox">🦊Firefox</a></li>
 				</ul>
 		</ul>
 </ul>
@@ -239,6 +244,18 @@ Additionally, Django is known for its detailed and extensive documentation, whic
 Django also includes integrated features that speed up development, such as a user authentication system, an automated admin panel, and protection against common web application security threats like cross-site scripting (XSS) and cross-site request forgery (CSRF). It also simplifies database management by automatically creating tables and mapping data models to the database without the need to write extensive SQL queries.
 
 In the context of this automation project, Django was chosen for its efficiency in the backend, especially for processing and managing files. The framework's scalability also makes it ideal for applications that may grow and require more processing power over time, while maintaining a solid architecture and easier maintenance.</p>
+			<li id="Cypress"><b>Cypress</b></li>
+			</br>
+			<p align="justify">
+Cypress is a web application testing automation tool designed to make the front-end testing process fast, reliable, and easy to use. Unlike other testing tools, Cypress executes tests directly in the browser, allowing developers to see the tests being performed in real-time, helping with debugging and understanding the behavior of applications.
+
+One of the main advantages of Cypress is its complete integration with the browser. It has direct access to all the elements on the page, which allows it to manipulate and interact with the application in the same way a real user would. Additionally, Cypress is designed to be easy to configure and use, without the need for complicated environment setups, which speeds up the learning curve and increases productivity.
+
+Cypress also stands out for its end-to-end (E2E) testing approach, where developers can write tests that simulate the full behavior of the user, from page loading to interaction with elements such as clicks, form filling, and navigation between pages. This makes Cypress ideal for testing dynamic applications, such as those based on JavaScript, where the interaction between components is crucial.
+
+Another important feature is that Cypress offers an interactive graphical interface, which allows you to visualize tests in execution, monitor results in real time, and even debug directly from the interface. This provides a much more intuitive and accessible testing experience, especially for development teams that are just starting to implement automated tests.
+
+Furthermore, Cypress has excellent integration with popular testing frameworks, such as Mocha, Chai, and Sinon, enabling efficient and structured test writing. It also offers advanced features such as video capture and detailed logs, making it easier to analyze failures and troubleshoot issues.</p>
 		</ul>
 	<li id="Libraries"><b>Libraries</b></li>
  </br>
@@ -263,16 +280,18 @@ One of the major advantages of PyAutoGUI is its ease of use, even in projects th
 The PyAutoGUI screenshot feature is valuable for validating on-screen elements, allowing for the identification of icons, buttons, or other graphical components. Additionally, it helps in debugging automated processes, assisting developers in understanding whether automated actions are being performed as expected.
 
 Another advantage of the library is its portability, working on operating systems such as Windows, macOS, and Linux. This broadens its use across different environments and enables the creation of cross-platform scripts. While it may not be the best solution for automating complex or large-scale applications, PyAutoGUI is perfect for simpler tasks and routines that require repetitive user interaction.</p>
-			<li id="Openpyxl"><b>Openpyxl</b></li>
+			<li id="Pandas"><b>Pandas</b></li>
 			</br>
 			<p align="justify">
-The Openpyxl library in Python is a powerful tool for reading, writing, and manipulating Excel files (.xlsx). With it, you can create automations for various tasks related to spreadsheets, offering a practical alternative to using VBA, without the need to directly depend on that language.
+Pandas is an open-source library in Python widely used for data analysis and manipulation. With its powerful data structures, Pandas makes it easy to work with data in formats such as tables, time series, and large volumes of structured data. It is essential for data scientists, analysts, and developers who work with data and need tools for cleaning, transforming, and analyzing it.
 
-Openpyxl allows you to interact with Excel files natively, enabling the reading and creation of new spreadsheets, as well as editing existing data. With this library, you can manipulate information in cells, insert formulas, format spreadsheets, create charts, and even add images. This makes Openpyxl a versatile solution for generating automated reports and processing large volumes of data.
+One of the main structures in Pandas is the DataFrame, which can be thought of as a two-dimensional table, composed of rows and columns, similar to an Excel spreadsheet or a database table. The DataFrame is highly efficient and flexible, allowing you to store, manipulate, and analyze large datasets quickly and effectively. It also supports indexing, which makes it easier to organize and access specific data intuitively.
 
-One of the great advantages of Openpyxl is how easily you can access and modify specific cells. Through simple commands, you can read cell values, change data, apply custom formatting, and even use references stored in variables to dynamically interact with the data during the script execution.
+Pandas stands out for its ability to handle missing or incomplete data, a common task when working with real-world datasets. With specific functions, it is possible to identify, replace, or remove missing values efficiently. Additionally, it allows you to perform complex operations, such as data grouping, aggregation, merging (joining different datasets), and filtering data with simple Python code.
 
-Furthermore, by using Python with Openpyxl, you gain access to a vast ecosystem of libraries and tools for automation. This allows for the integration of Excel with other functionalities, such as data analysis, advanced visualization, and process automation, enhancing efficiency and productivity in projects that involve working with spreadsheets.</p>
+Another advantage of Pandas is its integration with other popular libraries in the Python ecosystem, such as NumPy (for numerical calculations), Matplotlib and Seaborn (for data visualization), and SciPy (for scientific computing). This allows Pandas to be used as a central part of a data analysis workflow, where data manipulation and preparation are done with Pandas, while numerical analysis and graphical visualizations are performed with other tools.
+
+Furthermore, Pandas supports various input and output formats, such as CSV files, Excel, SQL, JSON, among others, which facilitates the import and export of data from different sources. This makes Pandas an essential tool for working with data in Python.</p>
 			<li id="Django-Rest-Framework"><b>Django Rest Framework</b></li>
 			</br>
 			<p align="justify">
@@ -316,4 +335,18 @@ The pathlib library is particularly useful in operations involving the creation,
 
 In addition to basic functionalities such as checking for file existence, retrieving attributes, and creating paths, pathlib also includes advanced utilities, such as using glob patterns to find files that match a specific pattern (*.txt, for example) and methods for efficiently traversing directory hierarchies.</p>
 		</ul>
+  	<li id="Browsers"><b>Browsers</b></li>
+<p align="justify">
+	The user will be able to access our website using any browser of their preference. However, external systems used, such as CAF and IHX, require a specific browser to ensure proper functionality. To ensure this compatibility, our website will automatically open Firefox, guaranteeing that all features work correctly.
+</p>
+	<ul>
+		<li id="Firefox"><b>Firefox</b></li>
+		</br>
+		<p align="justify">
+Mozilla Firefox is a free and open-source browser, widely recognized for its flexibility and efficient performance across various platforms, including Windows, macOS, Linux, as well as mobile devices running Android and iOS. One of Firefox’s main attractions is its extensive customization options, allowing users to adjust themes, colors, and extensions to tailor the browser to their preferences. With an intuitive interface, Firefox makes it easy to quickly access essential functions such as bookmarks, history, and downloads, providing a smooth and convenient browsing experience.
+
+Compared to other popular browsers, Firefox stands out for its strong privacy and security features. It automatically blocks third-party trackers, protecting users from being monitored while online, which is an advantage over Google Chrome. Additionally, the browser includes built-in features such as a pop-up blocker, anti-phishing tools, and continuous verification of suspicious websites, ensuring a secure browsing experience. Automatic security updates keep Firefox up-to-date with the latest protections.
+
+Another distinctive feature of Mozilla Firefox is its extensive catalog of extensions and advanced features, such as an internal tool for taking screenshots, support for watching videos in picture-in-picture mode, and an integrated PDF reader. The tab browsing experience is customizable, and the browser also supports configurable push notifications, giving users greater control over their browsing experience. With support for over 90 languages and optimized performance, Firefox remains a popular choice among users who prioritize privacy, security, and a feature-rich interface.</p>
+	</ul>
 </ul>
