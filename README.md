@@ -36,7 +36,7 @@
 				<li text-decoration="none"><a href="#Python-v.-3.12.4">🐍Python v. 3.12.4</a></li>
 				<li text-decoration="none"><a href="#JavaScript">☕JavaScript</a></li>
 			</ul>	
-		  <li text-decoration="none"><a href="#Specific-Objectives-of-the-Project">🖱Markup Language</a></li>
+		  <li text-decoration="none"><a href="#Markup-Language">🖱Markup Language</a></li>
 			<ul>
 				<li text-decoration="none"><a href="#HTML5">📄HTML5</a></li>
 				<li text-decoration="none"><a href="#CSS3">📱CSS3</a></li>
