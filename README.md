@@ -33,7 +33,7 @@
 		<ul>
 		  <li><a href="#Programming-Language">💻Programming Language</a></li>
 			<ul>
-				<li><a href="#Python-v.-3.12.4">🐍Python v. 3.12.4</a></li>
+				<li><a href="#Python-v-3-12-4">🐍Python v. 3.12.4</a></li>
 				<li><a href="#JavaScript">☕JavaScript</a></li>
 			</ul>	
 		  <li><a href="#Markup-Language">🖱Markup Language</a></li>
@@ -146,7 +146,7 @@ Finally, the impact of this project extends beyond the institution itself. The d
 <h2>Methodology</h2>
 
 <ul>
-	<li><b>Programming Language</b></li>
+	<li id="Programming-Language"><b>Programming Language</b></li>
 </br>
 		<ul>
 			<li><b>Python v. 3.12.4</b></li>
