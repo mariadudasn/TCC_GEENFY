@@ -29,7 +29,7 @@
 		  <li text-decoration="none"><a href="#Specific-Objectives-of-the-Project">🎯Specific Objectives of the Project</a></li>
 	</ul>
   <li text-decoration="none"><a href="#Project-Justification">📝Project justification</a></li>
-  <li text-decoration="none"><a href="#Project-Justification">⚙Methodology</a></li>
+  <li text-decoration="none"><a href="#Methodology">⚙Methodology</a></li>
 		<ul>
 		  <li text-decoration="none"><a href="#Programming Language">💻Programming Language</a></li>
 			<ul>
