@@ -70,14 +70,14 @@
 					<li><a href="#Trello">📆Trello</a></li>
 					<li><a href="#Notion">📅Notion</a></li>
 				</ul>
-			<li><a href="Methodologies">📦Methodologies</a></li>
+			<li><a href="#Methodologies">📋Methodologies</a></li>
 				<ul>
-					<li><a href="#Scrum">📆Scrum</a></li>
+					<li><a href="#Scrum">👨🏽‍🏫Scrum</a></li>
 						<ul>
-							<li><a href="#Roles in Scrum">📆Roles in Scrum</a></li>
-							<li><a href="#Events in Scrum">📅Events in Scrum</a></li>
+							<li><a href="#Roles in Scrum">📝Roles in Scrum</a></li>
+							<li><a href="#Events in Scrum">👩🏽‍🏫Events in Scrum</a></li>
 						</ul>
-					<li><a href="#Kanban">📅Kanban</a></li>
+					<li><a href="#Kanban">🗓Kanban</a></li>
 				</ul>
 		</ul>
 </ul>
