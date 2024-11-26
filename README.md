@@ -31,16 +31,29 @@
   <li text-decoration="none"><a href="#Project-Justification">📝Project justification</a></li>
   <li text-decoration="none"><a href="#Methodology">⚙Methodology</a></li>
 		<ul>
-		  <li><a href="#Programming-Language">💻Programming Language</a></li>
-			<ul>
-				<li><a href="#Python-v-3-12-4">🐍Python v. 3.12.4</a></li>
-				<li><a href="#JavaScript">☕JavaScript</a></li>
-			</ul>	
-		  <li><a href="#Markup-Language">🖱Markup Language</a></li>
-			<ul>
-				<li><a href="#HTML5">📄HTML5</a></li>
-				<li><a href="#CSS3">📱CSS3</a></li>
-			</ul>	
+		  	<li><a href="#Programming-Language">💻Programming Language</a></li>
+				<ul>
+					<li><a href="#Python-v-3-12-4">🐍Python v. 3.12.4</a></li>
+					<li><a href="#JavaScript">☕JavaScript</a></li>
+				</ul>	
+			  <li><a href="#Markup-Language">🖱Markup Language</a></li>
+				<ul>
+					<li><a href="#HTML5">📄HTML5</a></li>
+					<li><a href="#CSS3">📱CSS3</a></li>
+				</ul>
+			<li><a href="#Framework">🖥Framework</a></li>
+				<ul>
+					<li><a href="#Django-5-0-7">📌Django 5.0.7</a></li>
+				</ul>
+			<li><a href="#Libraries">📕Libraries</a></li>
+				<ul>
+					<li><a href="#Selenium-4-0">Selenium 4.0</a></li>
+					<li><a href="#PyAutoGUI-0-9-54">PyAutoGUI 0.9.54</a></li>
+					<li><a href="#Openpyxl">Openpyxl</a></li>
+					<li><a href="#Django-Rest-Framework">Django Rest Framework</a></li>
+					<li><a href="#OS">OS</a></li>
+					<li><a href="#Subprocess">Subprocess</a></li>
+				</ul>
 		</ul>
 </ul>
 
@@ -210,5 +223,95 @@ CSS can be implemented in several ways. The most common method is creating a sep
 In addition to styling colors and fonts, CSS enables the creation of animations, transitions, and visual effects, making navigation smoother and more engaging. It also integrates seamlessly with design frameworks and component libraries like Bootstrap, which speed up development and help create standardized, polished interfaces.
 
 With its versatility and power, CSS not only shapes the visual appeal of a website but also ensures it is functional and accessible, catering to diverse user needs and expectations.</p>
+		</ul>
+	<li id="Framework"><b>Framework</b></li>
+ </br>
+ 		<ul>
+			<li id="Django-5-0-7"><b>Django 5.0.7</b></li>
+			</br>
+			<p align="justify">
+Django is a high-level framework written in Python, designed for rapid web application development. It is free and open-source. Its main goal is to simplify the creation of web applications with a clean and organized design, promoting efficient and agile development. It follows the Model-View-Template (MVT) architecture pattern, which helps in the logical separation of data, interface, and application control.
+
+Additionally, Django is known for its detailed and extensive documentation, which helps reduce the learning curve for both beginner and experienced developers. Furthermore, it has an active community that offers support and contributes to the creation of numerous libraries and additional tools that extend its functionality.
+
+Django also includes integrated features that speed up development, such as a user authentication system, an automated admin panel, and protection against common web application security threats like cross-site scripting (XSS) and cross-site request forgery (CSRF). It also simplifies database management by automatically creating tables and mapping data models to the database without the need to write extensive SQL queries.
+
+In the context of this automation project, Django was chosen for its efficiency in the backend, especially for processing and managing files. The framework's scalability also makes it ideal for applications that may grow and require more processing power over time, while maintaining a solid architecture and easier maintenance.</p>
+		</ul>
+	<li id="Libraries"><b>Libraries</b></li>
+ </br>
+ 		<ul>
+			<li id="Selenium-4-0"><b>Selenium 4.0</b></li>
+			</br>
+			<p align="justify">
+The Selenium library in Python, also available in other programming languages like Java, C#, and Ruby, is a tool used for automating web browsers. It offers a wide range of methods and functions that allow control over the browser and interaction with elements on a web page, such as buttons, text fields, links, and more. While it is popular for its application in automated testing of web applications, Selenium is also used for other automation tasks, such as web scraping and automating repetitive tasks on the web.
+
+One of the major advantages of Selenium is its ability to simulate human actions in the browser. With it, tasks like clicking buttons, filling out forms, navigating between different pages, and even taking screenshots can be automated. This level of automation is very useful in interface testing, as it ensures that all elements of a website function correctly under various conditions, without the need for constant human intervention.
+
+Another powerful feature of Selenium is the ability to run tests in parallel. Combined with tools like Selenium Grid, it is possible to distribute automated tests across different machines and browsers simultaneously, speeding up the workflow and ensuring that the site works consistently across different platforms and devices. Selenium supports the major browsers in the market, including Google Chrome, Mozilla Firefox, Safari, and Microsoft Edge, as well as enabling tests on mobile devices using Appium.
+
+This flexibility, along with its strong support community and documentation, makes Selenium an indispensable tool for developers and quality assurance teams who need to ensure the functionality and usability of their web applications efficiently.</p>
+			<li id="PyAutoGUI-0-9-54"><b>PyAutoGUI 0.9.54</b></li>
+			</br>
+			<p align="justify">
+PyAutoGUI is a library written in Python developed for automating interactions with the graphical user interface (GUI). With it, it is possible to simulate user actions in the graphical environment, such as controlling the mouse and keyboard. The functionalities include clicking buttons, pressing keys, typing text, moving the cursor to any position on the screen, dragging and dropping items, scrolling the screen, and capturing screenshots.
+
+One of the major advantages of PyAutoGUI is its ease of use, even in projects that require little prior experience with automation. The library is useful for automating repetitive tasks, creating simple bots that can perform operations like navigating software interfaces, filling out forms, and executing command sequences in applications.
+
+The PyAutoGUI screenshot feature is valuable for validating on-screen elements, allowing for the identification of icons, buttons, or other graphical components. Additionally, it helps in debugging automated processes, assisting developers in understanding whether automated actions are being performed as expected.
+
+Another advantage of the library is its portability, working on operating systems such as Windows, macOS, and Linux. This broadens its use across different environments and enables the creation of cross-platform scripts. While it may not be the best solution for automating complex or large-scale applications, PyAutoGUI is perfect for simpler tasks and routines that require repetitive user interaction.</p>
+			<li id="Openpyxl"><b>Openpyxl</b></li>
+			</br>
+			<p align="justify">
+The Openpyxl library in Python is a powerful tool for reading, writing, and manipulating Excel files (.xlsx). With it, you can create automations for various tasks related to spreadsheets, offering a practical alternative to using VBA, without the need to directly depend on that language.
+
+Openpyxl allows you to interact with Excel files natively, enabling the reading and creation of new spreadsheets, as well as editing existing data. With this library, you can manipulate information in cells, insert formulas, format spreadsheets, create charts, and even add images. This makes Openpyxl a versatile solution for generating automated reports and processing large volumes of data.
+
+One of the great advantages of Openpyxl is how easily you can access and modify specific cells. Through simple commands, you can read cell values, change data, apply custom formatting, and even use references stored in variables to dynamically interact with the data during the script execution.
+
+Furthermore, by using Python with Openpyxl, you gain access to a vast ecosystem of libraries and tools for automation. This allows for the integration of Excel with other functionalities, such as data analysis, advanced visualization, and process automation, enhancing efficiency and productivity in projects that involve working with spreadsheets.</p>
+			<li id="Django-Rest-Framework"><b>Django Rest Framework</b></li>
+			</br>
+			<p align="justify">
+The Django REST Framework (DRF) is a robust library that enables the creation of REST APIs using the Django framework. DRF stands out for operating under the already established infrastructure of Django, making it easier to build APIs across various platforms, including Windows, macOS, and Linux. This versatility makes DRF a popular choice among developers looking for an efficient way to create web services and backend systems.
+
+One of the great advantages of Django REST Framework is its ability to simplify API development by leveraging Django’s features, such as its powerful routing system and the ORM (Object-Relational Mapping) for database management. This means that with DRF, you can quickly and effectively create REST APIs, speeding up the development process and increasing productivity.
+
+DRF offers a range of features that make API development more complete and secure. For example, it supports authentication and authorization, enabling the creation of protected APIs with access tokens to ensure that only authenticated users can access certain endpoints. Additionally, DRF makes it easier to use filters, which allow for the selection and visualization of data in a customized way, optimizing the experience for API consumers.
+
+Another significant benefit of the Django REST Framework is its support for caching systems, which help improve API performance by making data retrieval much faster, especially in large-scale applications. Moreover, DRF is fully integrable with Django, meaning that you can take advantage of all the features and security provided by the main framework without the need for complex configurations.
+
+Finally, DRF is highly extensible, offering support for a variety of external libraries that can be easily integrated to add extra functionalities, such as OAuth authentication, advanced serialization, and automatic documentation generation. This makes Django REST Framework one of the most comprehensive and reliable options for building REST APIs in the Python ecosystem.</p>
+			<li id="OS"><b>OS</b></li>
+			</br>
+			<p align="justify">
+The OS library in Python acts as a bridge between your code and the operating system where it is running. It provides a comprehensive set of functions that facilitate direct interaction with the system, allowing tasks such as navigating and manipulating directories, changing file permissions, retrieving detailed system information, and executing native commands. In other words, the OS library simplifies the programming of tasks that depend on the operating system, making them more intuitive and portable, regardless of the platform (Windows, macOS, or Linux) where your code is running.</p>
+			<li id="Subprocess"><b>Subprocess</b></li>
+			</br>
+			<p align="justify">
+The subprocess library in Python is a powerful tool for executing new processes in the operating system from Python code. It allows for the creation of processes, as well as communication with them and retrieving their results. Thus, subprocess offers a flexible and robust way to execute system commands directly from your script, replacing older functions like os.system().
+
+One of the main advantages of the subprocess library is its ability to capture the output of executed commands, allowing you to process the results directly in your code. Additionally, it offers greater control over processes, allowing for the redirection of input, output, and error streams, as well as safer and more efficient management of subprocesses.
+
+The subprocess module also allows commands to be executed in different environments, such as Shell, using the shell=True option, although this option should be used with caution due to potential security risks. In general, the use of the library is recommended for situations where it is necessary to call external programs, perform administrative task automations, or integrate Python scripts with other system applications and utilities.</p>
+			<li id="Threading"><b>Threading</b></li>
+			</br>
+			<p align="justify">
+The threading library in Python is a powerful tool for performing multitasking, allowing the simultaneous execution of multiple operations within a single program. This concept is known as multithreading, where the code is split into multiple "threads" that can run in parallel. Each thread functions as an independent unit of execution, allowing different parts of the code to run at the same time, which can lead to significant performance gains, especially in tasks involving I/O operations (such as file reading, data downloading, or API calls).
+
+In simple terms, it is a way to execute multiple operations simultaneously. For example, if you have several tasks that can run independently — like downloading files, processing information, or making HTTP requests — the threading library allows you to run these tasks in parallel. This means that instead of waiting for one function to finish before starting another, you can execute all of them at the same time, increasing efficiency and speeding up the execution of your program.
+
+Using the threading library can significantly improve the performance of your code, especially in situations where multiple tasks do not depend on one another. However, it is important to be cautious when using threads, as simultaneous execution can introduce complexities, such as race conditions and synchronization issues between threads, which need to be properly managed to avoid unexpected bugs.</p>
+			<li id="Pathlib"><b>Pathlib</b></li>
+			</br>
+			<p align="justify">
+The pathlib library is a module introduced in Python 3 that provides a modern and efficient way to handle file and directory paths in a way that is independent of the operating system. Unlike the traditional os.path module, which is also used for handling paths, pathlib offers an object-oriented interface that is more intuitive and readable, making it easier to work with files and directories.
+
+One of the main benefits of pathlib is its ability to handle paths independently of the operating system. For example, on Unix-based systems (such as macOS and Linux), a file path might be represented as /Users/sammy/ocean/wave.txt, while on Windows, the same file might have the path C:\\Users\\sammy\\ocean\\wave.txt. With pathlib, you can manipulate these paths without worrying about the differences in formatting, as it abstracts these variations, making the code more portable.
+
+The pathlib library is particularly useful in operations involving the creation, movement, and listing of files and directories. For example, it is possible to list all files with a specific extension in a directory, create new directories, or navigate through different folder levels in a simple manner. Using pathlib results in more readable and concise code, reducing the need for complex functions and improving clarity.
+
+In addition to basic functionalities such as checking for file existence, retrieving attributes, and creating paths, pathlib also includes advanced utilities, such as using glob patterns to find files that match a specific pattern (*.txt, for example) and methods for efficiently traversing directory hierarchies.</p>
 		</ul>
 </ul>
