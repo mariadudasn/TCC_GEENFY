@@ -47,14 +47,14 @@
 				</ul>
 			<li><a href="#Libraries">📕Libraries</a></li>
 				<ul>
-					<li><a href="#Selenium-4-0">Selenium 4.0</a></li>
-					<li><a href="#PyAutoGUI-0-9-54">PyAutoGUI 0.9.54</a></li>
-					<li><a href="#Openpyxl">Openpyxl</a></li>
-					<li><a href="#Django-Rest-Framework">Django Rest Framework</a></li>
-					<li><a href="#OS">OS</a></li>
-					<li><a href="#Subprocess">Subprocess</a></li>
-					<li><a href="#Threading">Threading</a></li>
-					<li><a href="#Pathlib">Pathlib</a></li>
+					<li><a href="#Selenium-4-0">✅Selenium 4.0</a></li>
+					<li><a href="#PyAutoGUI-0-9-54">⌨PyAutoGUI 0.9.54</a></li>
+					<li><a href="#Openpyxl">📊Openpyxl</a></li>
+					<li><a href="#Django-Rest-Framework">📁Django Rest Framework</a></li>
+					<li><a href="#OS">🐍OS</a></li>
+					<li><a href="#Subprocess">🔄Subprocess</a></li>
+					<li><a href="#Threading">〰Threading</a></li>
+					<li><a href="#Pathlib">🗺Pathlib</a></li>
 				</ul>
 		</ul>
 </ul>
