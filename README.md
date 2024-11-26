@@ -30,6 +30,18 @@
 	</ul>
   <li text-decoration="none"><a href="#Project-Justification">📝Project justification</a></li>
   <li text-decoration="none"><a href="#Project-Justification">⚙Methodology</a></li>
+		<ul>
+		  <li text-decoration="none"><a href="#Programming Language">💻Programming Language</a></li>
+			<ul>
+				<li text-decoration="none"><a href="#Python v. 3.12.4">🐍Python v. 3.12.4</a></li>
+				<li text-decoration="none"><a href="#JavaScript">☕JavaScript</a></li>
+			</ul>	
+		  <li text-decoration="none"><a href="#Specific-Objectives-of-the-Project">🖱Markup Language</a></li>
+			<ul>
+				<li text-decoration="none"><a href="#HTML5">📄HTML5</a></li>
+				<li text-decoration="none"><a href="#CSS3">📱CSS3</a></li>
+			</ul>	
+		</ul>
 </ul>
 
 <h2>Project Planning</h2>
@@ -134,7 +146,7 @@ Finally, the impact of this project extends beyond the institution itself. The d
 <h2>Methodology</h2>
 
 <ul>
-	<li>Programming Language</li>
+	<li><b>Programming Language</b></li>
 </br>
 		<ul>
 			<li><b>Python v. 3.12.4</b></li>
@@ -145,6 +157,58 @@ Python is an open-source programming language widely recognized for its versatil
 One of Python's main advantages is its ability to easily integrate with other programming languages, enabling the development of hybrid solutions that combine the best of different technological environments.
 
 Additionally, as shown in the analysis presented in Figure 1, Python excels in resource consumption, such as CPU and RAM, compared to other languages. This makes it particularly suitable for use in hardware-limited environments like the Raspberry Pi, ensuring efficient operation without overloading system resources.</p>
-			<img src="https://github.com/user-attachments/assets/16e1e0f3-35e1-4403-95bf-68adc4d78b66" alt="Project Planning">
+			<div align="center">
+				<img src="https://github.com/user-attachments/assets/73389ccd-bc9b-4c9a-ab1c-265a8efa4e3c" alt="Resource Consumption">
+	   			<p>Figure 1. Source: The authors (2023).</p>
+       			</div>
+	  		</br>
+     			<p align="justify">
+Another key point is the simplicity of Python's syntax, as demonstrated in Figure 2. Compared to languages like Java, Python offers a gentler learning curve, making it easier to develop and maintain code. This not only speeds up the coding process but also reduces the likelihood of errors, which is essential for implementing reliable and efficient automation.
+
+Thus, the use of Python in the development of this project is justified by its efficiency, flexibility, and integration capabilities, characteristics that make it the ideal choice for building robust and innovative solutions.</p>
+			<div align="center">
+				<img width="500" src="https://github.com/user-attachments/assets/fdb904ae-d0b8-46f6-89f9-33f91e5e6faa" alt="Comparison between Java and Python">
+	   			<p>Figure 2. Comparison between Java and Python. Source: https://www.penser.co.uk/article/building-a-strong-base-best-fintech-backend-platforms/</p>
+       			</div>
+	  		<li><b>JavaScript</b></li>
+			</br>
+   			<p align="justify">
+O JavaScript é uma linguagem de programação amplamente utilizada na web para adicionar dinamismo e interatividade às páginas. Enquanto HTML estrutura o conteúdo e CSS define a aparência, o JavaScript traz vida às páginas, permitindo a criação de funcionalidades complexas, como animações, validações de formulários, atualizações em tempo real e interações personalizadas do usuário.
+
+Uma das principais vantagens do JavaScript é sua execução diretamente nos navegadores, sem necessidade de compilação prévia. Isso possibilita respostas rápidas às ações do usuário, como cliques, movimentos do mouse ou entrada de dados, tornando a experiência mais fluida e envolvente. Além disso, a linguagem é versátil e pode ser usada tanto no lado do cliente quanto no lado do servidor, com tecnologias como o Node.js.
+
+O JavaScript também se destaca por sua vasta comunidade e ecossistema. Milhares de bibliotecas e frameworks, como React, Angular e Vue.js, foram criados para facilitar o desenvolvimento de aplicações robustas e escaláveis. Essas ferramentas economizam tempo e oferecem soluções para problemas comuns, tornando o JavaScript uma escolha favorita entre os desenvolvedores.
+
+Outra característica importante é a integração com outras tecnologias. O JavaScript trabalha em conjunto com HTML e CSS, manipulando o DOM (*Document Object Model*) para atualizar dinamicamente o conteúdo das páginas sem necessidade de recarregá-las. Essa capacidade é crucial para criar aplicações modernas e responsivas, como as que vemos em redes sociais e serviços de e-commerce.
+
+Por fim, o JavaScript é uma linguagem inclusiva e adaptável, sendo usada desde projetos simples até aplicações complexas. Sua presença onipresente na web e seu papel no desenvolvimento de experiências interativas e responsivas fazem do JavaScript uma peça-chave no mundo da tecnologia e um recurso indispensável para desenvolvedores que desejam criar soluções inovadoras e centradas no usuário.</p>
+		</ul>
+	<li><b>Markup Language<b></li>
+ </br>
+		<ul>
+			<li><b>HTML5</b></li>
+			</br>
+			<p align="justify">
+HTML (*HyperText Markup Language*) is a markup language for the web used to structure and organize the content of internet pages. With a variety of *tags*, developers can define how different types of content, such as headings, paragraphs, images, lists, and links, will be displayed in browsers. This language is widely recognized as the standard for building virtually all websites we access, playing a fundamental role in presenting all the elements that make up a page in a coherent manner.
+
+One of HTML's greatest advantages is its compatibility. Any browser, on any device—whether a computer or a smartphone—can interpret and correctly display an HTML-based page. This means that regardless of where you are or what you’re using, the content will be accessible.
+
+Moreover, HTML stands out for its flexibility, as it easily integrates with other technologies such as CSS (*Cascading Style Sheets*) and JavaScript. CSS helps style the appearance of pages by defining colors, fonts, and layouts, while JavaScript adds interactivity, making pages more dynamic for users.
+
+Another essential aspect of HTML is accessibility. When used correctly, with semantic elements and proper attributes, HTML ensures that screen readers and other assistive devices can effectively interpret the content. This is crucial for making web pages more inclusive for people with visual impairments or other special needs.
+
+In summary, HTML is a markup language that serves as the foundation for building websites and integrates seamlessly with other technologies. Its ability to promote accessibility and compatibility across various platforms makes HTML an essential tool for developers and designers, helping them create effective and accessible web experiences for everyone.</p>
+			<li><b>CSS3</b></li>
+			</br>
+			<p align="justify">
+CSS (Cascading Style Sheets) is a design language used to style web pages structured with markup languages like HTML. It allows developers to define colors, sizes, shapes, spacing, fonts, and various other visual aspects, creating a unique look for websites. Beyond enhancing design, CSS enables control over a page's responsiveness—its ability to adapt to different screen sizes—ensuring a seamless experience across devices like smartphones, tablets, and computers.
+
+When it comes to responsiveness, CSS plays a vital role in making web pages accessible. Using techniques like media queries, developers can create layouts that adjust dynamically to different devices and screen resolutions. This is crucial for providing a consistent and enjoyable browsing experience, regardless of the device being used.
+
+CSS can be implemented in several ways. The most common method is creating a separate file (.css) linked to the HTML file, keeping structure and design neatly organized. Alternatively, CSS can be written directly within the HTML file, either in a <style> tag in the page's head or by applying styles directly to each HTML element using the style attribute.
+
+In addition to styling colors and fonts, CSS enables the creation of animations, transitions, and visual effects, making navigation smoother and more engaging. It also integrates seamlessly with design frameworks and component libraries like Bootstrap, which speed up development and help create standardized, polished interfaces.
+
+With its versatility and power, CSS not only shapes the visual appeal of a website but also ensures it is functional and accessible, catering to diverse user needs and expectations.</p>
 		</ul>
 </ul>
