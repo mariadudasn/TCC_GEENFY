@@ -96,6 +96,11 @@
 			<li><a href="#Screens added for the coordinator user">📁Screens added for the coordinator user</a></li>
 			<li><a href="#Screen added for the employee user">📂Screen added for the employee user</a></li>
 		</ul>
+	<li text-decoration="none"><a href="#Code">🔵Code</a></li>
+		<ul>
+			<li><a href="#Code Structure">🟤Code Structure</a></li>
+			<li><a href="#Code documentation">🟠Code documentation</a></li>
+		</ul>
 </ul>
 
 <h2>Project Planning</h2>
@@ -714,7 +719,7 @@ In the diagram, we have two characters (represented by human figures): the "Empl
 
 <h2>Code</h2>
 <ul>
-	<li><b>Code structure</b></li>
+	<li id="Code Structure"><b>Code Structure</b></li>
 
 ```
 ProjetoRPA/
@@ -815,7 +820,7 @@ ProjetoRPA/
 ├── README.md
 ```
 
-<li><b>Code documentation</b>
+<li id="Code documentation"><b>Code documentation</b>
 		<div align="center"><img src="https://github.com/user-attachments/assets/3b75ed9e-8109-4b9d-a78e-8c426fede322" alt="Code folder" width="400"></div>
   		<p align="justify">This is the main directory of our project called "ProjetoRPA" in Visual Studio Code. "RPA" is a common acronym for Robotic Process Automation. This directory contains code files, scripts, and configurations for automation.</p>
 		</br>
