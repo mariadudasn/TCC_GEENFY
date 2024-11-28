@@ -921,5 +921,43 @@ ProjetoRPA/
 			<li align="justify"><b>urls.py: </b> Defines the URL routing for your project. This is where you specify which URLs should be handled by which views. This file serves as a route map that directs traffic to the appropriate functions or classes in your project.</li>
 			<li align="justify"><b>wsgi.py: </b> Configuration for WSGI (Web Server Gateway Interface), which is used to deploy your Django project on traditional web servers like Apache or Nginx. It acts as the entry point for the web server, which forwards HTTP requests to your Django project.</li>
 		</ul>
+  		</br>
+    		<div align="center"><img src="https://github.com/user-attachments/assets/7dec8510-bf99-47df-a0e6-3613f3abd864" alt="Code folder" width="400"></div>
+      		<p align="justify">The image shows the structure of the static folder in a Django project. In Django, the static folder is used to store static files that do not change frequently and are sent directly to the user's browser. This includes files such as CSS, JavaScript, and images. These files are essential for styling and adding functionality to the frontend of your project.</p>
+    		<ul>
+			<li align="justify"><b>css/: </b> 
+				<ul>
+					<li align="justify"><b>Description: </b> Contains all the style sheets (CSS) files used to style the frontend of the project.</li>
+					<li align="justify"><b>Use: </b> Used to define the layout, colors, fonts, and other visual styles of the website.</li>
+				</ul>
+			</li>
+			<li align="justify"><b>img/: </b> 
+				<ul>
+					<li align="justify"><b>Description: </b> A folder dedicated to storing images used in the project, such as logos, banners, and icons.</li>
+					<li align="justify"><b>Use: </b> Facilitates the management of visual assets, ensuring that all images are centralized in one directory.</li>
+				</ul>
+			</li>
+			<li align="justify"><b>js/: </b> 
+				<ul>
+					<li align="justify"><b>Description: </b> Contains all the JavaScript files used to add interactivity and functionality to the frontend.</li>
+					<li align="justify"><b>Use: </b> Includes code to manipulate the DOM, send AJAX requests, validate forms, among other dynamic functionalities.</li>
+				</ul>
+			</li>
+		</ul>
+    		</br>
+    		<div align="center"><img src="https://github.com/user-attachments/assets/8381967f-707a-43bc-9170-7c9d59a61f48" alt="Code folder" width="400"></div>
+      		<p><b>CSS Folder</b></p>
+    		<ul>
+			<li align="justify"><b>styleArmazenamento.css: </b> Provides custom styling for the Storage page. It contains style rules that affect the layout, colors, fonts, and interactive elements of the authentication screen, ensuring a consistent and visually pleasant user experience.</li>
+			<li align="justify"><b>styleCadastro.css: </b> Provides custom styling for the Registration page. It contains style rules that affect the layout, colors, fonts, and interactive elements of the authentication screen, ensuring a consistent and visually pleasant user experience.</li>
+			<li align="justify"><b>styleCadInfo.css: </b> Provides custom styling for the Additional Information Registration page. It contains style rules that affect the layout, colors, fonts, and interactive elements of the authentication screen, ensuring a consistent and visually pleasant user experience.</li>
+			<li align="justify"><b>styleEditarPerfil.css: </b> Provides custom styling for the Edit Profile page. It contains style rules that affect the layout, colors, fonts, and interactive elements of the authentication screen, ensuring a consistent and visually pleasant user experience.</li>
+			<li align="justify"><b>styleFuncionarios.css: </b> Provides custom styling for the View Employees page. It contains style rules that affect the layout, colors, fonts, and interactive elements of the authentication screen, ensuring a consistent and visually pleasant user experience.</li>
+			<li align="justify"><b>styleHome.css: </b> Provides custom styling for the Homepage. It contains style rules that affect the layout, colors, fonts, and interactive elements of the authentication screen, ensuring a consistent and visually pleasant user experience.</li>
+			<li align="justify"><b>styleLogin.css: </b> Provides custom styling for the Login page. It contains style rules that affect the layout, colors, fonts, and interactive elements of the authentication screen, ensuring a consistent and visually pleasant user experience.</li>
+			<li align="justify"><b>styleNavBar.css: </b> Provides custom styling for the NavBar.</li>
+			<li align="justify"><b>styleNovaTurma.css: </b> Provides custom styling for the View Profile page. It contains style rules that affect the layout, colors, fonts, and interactive elements of the authentication screen, ensuring a consistent and visually pleasant user experience.</li>
+			<li align="justify"><b>styleProcesso.css: </b> Provides custom styling for the View Process page. It contains style rules that affect the layout, colors, fonts, and interactive elements of the authentication screen, ensuring a consistent and visually pleasant user experience.</li>
+		</ul>
 </li>
 </ul>
