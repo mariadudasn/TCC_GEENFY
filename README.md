@@ -90,7 +90,7 @@
 			<li><a href="#Entity-Relationship Diagram">🖍Entity-Relationship Diagram</a></li>
 			<li><a href="#Entity-Relationship Diagram">🟣Use Case Diagram</a></li>
 		</ul>
-	<li text-decoration="none"><a href="#Interface Prototypes">💡Interface Prototypes</a></li>
+	<li text-decoration="none"><a href="#Interface-Prototypes">💡Interface Prototypes</a></li>
 		<ul>
 			<li><a href="#General Screens">🗃General Screens</a></li>
 			<li><a href="#Screens added for the coordinator user">📁Screens added for the coordinator user</a></li>
