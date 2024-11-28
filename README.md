@@ -109,6 +109,12 @@
 			<li><a href="#DJANGO">✳DJANGO</a></li>
 			<li><a href="#RASPBERRY">🛑RASPBERRY</a></li>
 		</ul>
+  	<li text-decoration="none"><a href="#Preparation of the work environment">❗Preparation of the work environment</a></li>
+		<ul>
+			<li><a href="#Python on Raspberry Pi">🐍Python on Raspberry Pi</a></li>
+			<li><a href="#Necessary Libraries for Deployment">📒Necessary Libraries for Deployment</a></li>
+			<li><a href="#Necessary Libraries for Deployment">📘Necessary Framework for Tests</a></li>
+		</ul>
 	<li text-decoration="none"><a href="#Create-by">❤Create by</a></li>
 </ul>
 
@@ -1248,7 +1254,7 @@ python .\manage.py runserver
  	<ul>
 		<li><b>Set hostname: </b>projetoIA.</li>
 		<li><b>Username: </b>instrutor.</li>
-		<li><b>Set locale settings.</li>
+		<li><b>Set locale settings.</b></li>
 		<li><b>Time zone: </b>America/Sao_Paulo.</li>
 		<li><b>Keyboard layout: </b>pt.</li>
 	</ul>
@@ -1263,8 +1269,108 @@ python .\manage.py runserver
   </li>	
 </ul>
 
-<h2>Preparation of the work environment</h2>
+<h2 id="Preparation of the work environment">Preparation of the work environment</h2>
 <div align="center"><img src="https://github.com/user-attachments/assets/bce358d8-87ba-4e8d-8e77-f25386c234bf" alt="Preparation of the work environment"></div>	
+<ul>
+</br>
+	<li id="Python on Raspberry Pi"><b>Python on Raspberry Pi</b>
+		<p>Note: Before installing VSCode, the Raspberry Pi itself provides an option to update the operating system.</p>
+		<p>→ In the terminal - Command for installation:</p>
+		
+```
+pip install code
+```
+<p>→ In the terminal - Command for installation:</p>
+
+```
+code
+```
+<p>→ In VSCode, perform the installation and activation of Python (extensions):</p>
+<div align="center"><img src="https://github.com/user-attachments/assets/a3ce5ef4-5893-4c68-8cba-c1f4993866db" alt="Python" width="400"></div>
+
+</li>
+
+<li id="Necessary Libraries for Deployment"><b>Necessary Libraries for Deployment</b>
+	<p align="justify">The following libraries will be installed via the VSCode terminal on the Raspberry Pi 4. The focus is on how they can be useful for automation and file manipulation.</p>
+	<ul>
+		<li><b>Selenium</b>
+  		<p align="justify">Selenium is a powerful library for browser automation. It allows you to control a web browser through scripts, facilitating tasks such as automated testing, form filling, data scraping, and automated browsing.</p>
+    		<p><b>How to install?</b></p>
+			
+```
+pip install selenium
+```
+
+</li>
+		<li><b>PyAutoGUI</b>
+  		<p align="justify">PyAutoGUI is a library for automating the graphical user interface, enabling programmatic control of the mouse and keyboard. It is useful for automating repetitive tasks that involve interaction with the user interface.</p>
+    		<p><b>How to install?</b></p>
+			
+```
+pip install pyautogui
+```
+
+</li>
+
+<li><b>Openpyxl</b>
+  		<p align="justify">Openpyxl is a library that allows reading, writing, and manipulating Excel (.xlsx) files. It is ideal for automating reports, generating spreadsheets, and manipulating tabular data.</p>
+    		<p><b>How to install?</b></p>
+			
+```
+pip install openpyxl
+```
+
+</li>
+	
+<li><b>Django REST Framework</b>
+  		<p align="justify">The Django REST Framework (DRF) is a powerful and flexible library for building Web APIs using the Django framework. It simplifies the process of creating RESTful APIs, allowing developers to create endpoints for communication between clients and servers in a structured and secure manner.</p>
+    		<p><b>How to install?</b></p>
+			
+```
+pip install djangorestframework
+```
+
+</li>
+
+<li><b>The following libraries/resources are necessary for the code to function and need to be imported:</b>
+			
+```
+import os
+from rest_framework import viewsets
+from rest_framework.decorators import action
+from rest_framework import status
+from rest_framework.response import Response
+import subprocess
+import threading
+from rest_framework.routers import DefaultRouter
+from rest_framework import serializers
+from pathlib import Path
+```
+
+</li>
+
+</ul>
+
+<li id="Necessary Framework for Tests"><b>Necessary Framework for Tests</b>
+</br>
+	<ul>
+		<li><b>Cypress</b>
+			<ul>
+			<li>Install Cypress in the environment. To install it, simply run the following command in your terminal:</li>
+		
+```
+npm install cypress --save-dev
+```
+<li>Now, it is necessary to configure it for use in your automated tests. To do so, you need to create a configuration file in your project, and you only need to run the following command in your terminal:</li>
+
+```
+npx cypress open
+```		
+</ul>
+</ul>
+</ul>
+
+
 
 
 <h2 id="Create-by">Create by</h2>
