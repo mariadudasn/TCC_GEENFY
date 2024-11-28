@@ -88,7 +88,10 @@
 	<li text-decoration="none"><a href="#Architecture">📐Architecture</a></li>
 		<ul>
 			<li><a href="#Entity-Relationship Diagram">🖍Entity-Relationship Diagram</a></li>
-			<li><a href="#Entity-Relationship Diagram">🟣Use Case Diagram</a></li>
+			<li><a href="#Use Case Diagram">🟣Use Case Diagram</a></li>
+			<li><a href="#Class Diagram">📖Class Diagram</a></li>
+			<li><a href="#BPMN Diagram">📚BPMN Diagram</a></li>
+			<li><a href="#System Architecture Diagram">🧩System Architecture Diagram</a></li>
 		</ul>
 	<li text-decoration="none"><a href="#Interface-Prototypes">💡Interface Prototypes</a></li>
 		<ul>
@@ -672,8 +675,9 @@ For example:
 </ul>
 </br>
 The goal is to create a system that is user-friendly, secure, and efficient, capable of managing user and file information while providing a visual interface with images and texts. This enables users to interact with the system in a straightforward and intuitive way.</p>
-
+</br>
 <li id="Use Case Diagram"><b>Use Case Diagram</b></li>
+</br>
 <div align="center"><img src="https://github.com/user-attachments/assets/24403b5f-62cf-4326-a4f6-014b43c5d9f8" alt="Use Case Diagram" width="400"></div>
 <p align="justify">This diagram is a visual representation of the actions that two people with different roles – called "Employee" and "Coordinator" – can perform within a system.
 
@@ -689,6 +693,155 @@ In the diagram, we have two characters (represented by human figures): the "Empl
 	<li><b>Register employees:</b> Only the Coordinator can register new employees in the system.</li>
 	<li><b>List employees:</b> The Coordinator can view a list of all registered employees.</li>
 </ul>
+
+</br>
+<li id="Class Diagram"><b>Class Diagram</b></li>
+</br>
+<div align="center"><img src="https://github.com/user-attachments/assets/8807730d-c666-4104-ad7b-b6fe58800168" alt="Class Diagram"></div>
+
+<p><b>General Structure</b></p>
+<p align="justify">The diagram is divided into several "boxes," which represent the different "classes" of the system. Each class has a name (such as User, Homepage, Registration) and a list of attributes (or "fields") it holds. These fields act as placeholders where the system stores specific data for each area.</p>
+<p><b>Explanation of the Main Components</b></p>
+<ul>
+	<li align="justify"><b>User: </b> This section stores login information for each user. It includes fields such as "login_IHX," "senha_IHX," "login_CAF," and "senha_CAF," which are access credentials for different systems. It also has a reference to the "user" (main user) of the system.</li>
+	<li align="justify"><b>Homepage:</b> This class stores the content that appears on the system's homepage. It includes:
+		<ul>
+			<li align="justify"><b>Title: </b> The page title.</li>
+			<li align="justify"><b>Text:</b> A brief description or introduction.</li>
+			<li align="justify"><b>Image:</b> An image displayed on the homepage, such as a featured photo or banner.</li>
+		</ul>
+	</li>
+	<li align="justify"><b>Registration and Registration_Info: </b> 
+		<ul>
+			<li align="justify"><b>Registration: </b> Holds a title and an image for visual representations of registration areas (like a sign-up or enrollment section).</li>
+			<li align="justify"><b>Registration_Info:</b> Provides additional details for the registration process, also including a title and an image.</li>
+		</ul>
+	</li>
+	<li align="justify"><b>Employee: </b> Stores data about employees, including:
+		<ul>
+			<li align="justify"><b>Title: </b> The page title.</li>
+			<li align="justify"><b>EmployeeImages:</b> The photo or image associated with the page.</li>
+		</ul>
+	</li>
+	<li align="justify"><b>Login: </b> Manages the visual appearance of the login page, with a title and an image for this page, such as a logo or background.</li>
+	<li align="justify"><b>NewClass:</b> Stores information about new classes (groups of students or courses), including the title, description, and an image associated with the class.</li>
+	<li align="justify"><b>In_progress_file and Finished_file:</b> 
+		<ul>
+			<li align="justify"><b>In_progress_file: </b> Stores files that are still in progress. Each file has a name, the related class, the date, and the status (in progress or pending).</li>
+			<li align="justify"><b>Finished_file: </b> Stores completed files, including data about the class, file name, and the date it was uploaded.</li>
+		</ul>
+	</li>
+	<li align="justify"><b>Storage:</b> Holds data like the title and image related to the storage page.</li>
+	<li align="justify"><b>Process:</b> Used to record steps or processes within the system, with an identifying title for each process.</li>
+	<li align="justify"><b>Profile and ProfileEdit: </b> 
+		<ul>
+			<li align="justify"><b>Profile: </b>Stores visual information about user profiles, such as the title and profile image.</li>
+			<li align="justify"><b>ProfileEdit: </b>Stores the title and image associated with the profile editing page.</li>
+		</ul>
+	</li>
+
+</ul>
+
+</br>
+<li id="BPMN Diagram"><b>BPMN Diagram</b></li>
+</br>
+<div align="center"><img src="https://github.com/user-attachments/assets/99b5f5dd-9128-48ba-b836-6c616e0c2730" alt="BPMN Diagram"></div>
+<ul>
+	<li align="justify"><b>Login and Initial Validation: </b> 
+		<ul>
+			<li align="justify">The user logs into the system to access its functionalities.</li>
+			<li align="justify">Correct credentials lead to the homepage; incorrect credentials display an error message.</li>
+			<li align="justify">If the user is not registered, they must request registration from the coordinator.</li>
+		</ul>
+	</li>
+	<li align="justify"><b>File Upload (XLSX): </b> 
+		<ul>
+			<li align="justify">The user must upload the file containing class data.</li>
+			<li align="justify">If the file is unavailable, the coordinator must generate it in SGSET.</li>
+		</ul>
+	</li>
+	<li align="justify"><b>Start of the Automated Process (RPA): </b> 
+		<ul>
+			<li align="justify">The automated bot validates the CAF and IHX credentials respectively as the process progresses.</li>
+			<li align="justify">Incorrect credentials or invalid files generate error messages; correct data allows the process to proceed.</li>
+		</ul>
+	</li>
+	<li align="justify"><b>Integration with CAF and IHX: </b> 
+		<ul>
+			<li>The bot checks if students are registered in CAF and IHX:
+				<ul>
+					<li align="justify">CAF: If a student is not found, the system automatically activates the registration.</li>
+					<li align="justify">IHX: The system searches for the student using the enrollment code. If the student is not in IHX, the process simply moves forward.</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li align="justify"><b>QR Code Generation and Organization: </b> 
+		<ul>
+			<li align="justify">For each validated student, the system generates a QR Code.</li>
+			<li align="justify">The QR Codes are saved in a specific folder named after the class.</li>
+		</ul>
+	</li>
+	<li align="justify"><b>Process Conclusion: </b> 
+		<ul>
+			<li align="justify">The system organizes the processed information and makes it available to the user.</li>
+			<li align="justify">After processing all students, the system closes the external websites (CAF and IHX) and concludes the automation.</li>
+		</ul>
+	</li>
+</ul>
+
+</br>
+<li id="System Architecture Diagram"><b>System Architecture Diagram</b></li>
+</br>
+<div align="center"><img src="https://github.com/user-attachments/assets/f6dccc8e-651a-4bd5-9f83-d13b8ecd338f" alt="System Architecture Diagram"></div>
+<ul>
+	<li align="justify"><b>Result (dark blue):</b>
+		<ul>
+			<li align="justify"><b>PDF:</b> This element represents a PDF document that the system generates as the final result. This PDF could be, for instance, an identification card or a report. It is the final product that the user or another system can access or download.</li>
+		</ul>
+	</li>
+	<li align="justify"><b>External Accesses (light red):</b>
+		<ul>
+			<li align="justify"><b>Physical Access Control (CAF):</b> This external system appears to manage the entry and exit of people in a physical environment, such as a building or room. It may be connected to the system to enable automated access control, possibly using the data generated by the system.</li>
+			<li align="justify"><b>IHX School:</b> This is another external system, likely related to school management. It might provide data to the system or receive information, facilitating integration with school activities, such as enrollment or student records.</li>
+		</ul>
+	</li>
+	<li align="justify"><b>RPA (yellow):</b>
+		<ul>
+			<li align="justify"><b>RPA:</b> Stands for "Robotic Process Automation." Here, RPA represents automation that performs repetitive and rule-based tasks, such as filling out and submitting information between systems without human intervention. It is integrated with external systems and the database, processing data automatically.</li>
+		</ul>
+	</li>
+	<li align="justify"><b>DAO (lighter yellow):</b>
+		<ul>
+			<li align="justify"><b>Model:</b> This component defines how data is organized and structured in the system. Each "model" represents a table or structure in the database and allows saving or retrieving information.</li>
+			<li align="justify"><b>Forms:</b> The "forms" (or forms) are the interface that users use to input data into the system. They ensure that data is submitted in the correct format.</li>
+		</ul>
+	</li>
+	<li align="justify"><b>Controller (green):</b>
+		<ul>
+			<li align="justify"><b>View:</b> Here, "View" refers to the views file in Django, where classes and functions are manipulated to process user requests. This file controls the logic behind user interactions, retrieves data from the database, applies business rules, and determines what will be displayed on the pages. It serves as the connection point between what the user requests and the data processed in the system.</li>
+		</ul>
+	</li>
+	<li align="justify"><b>View (light blue):</b>
+		<ul>
+			<li align="justify"><b>URL:</b> URLs represent the links (internet addresses) that direct users to different pages or parts of the system.</li>
+			<li align="justify"><b>Templates (HTML and JS):</b> Templates are files that contain the content and structure of the pages displayed to users. They use HTML (to structure the content) and JavaScript (JS) for interactive functionalities. These files form the pages visible to users.</li>
+			<li align="justify"><b>External File:</b> Represents the file that the user uploads to the site with student information.</li>
+		</ul>
+	</li>
+	<li align="justify"><b>Files (purple):</b>
+		<ul>
+			<li align="justify"><b>Static: </b> This section stores static files, such as images, style files (CSS), and JavaScript scripts that do not change frequently. These files help shape and style the system, such as colors, fonts, etc.</li>
+			<li align="justify"><b>Media:</b> This is where files uploaded by users to the system are stored, such as profile photos, documents, or other content they wish to keep in the system.</li>
+		</ul>
+	</li>
+	<li align="justify"><b>Django Database (light blue in the background):</b>
+		<ul>
+			<li align="justify">This is where all system data is stored in an organized manner. It holds the information collected by the system, such as student data, user information, and access logs.</li>
+		</ul>
+	</li>
+</ul>
+
 </ul>
 
 <h2>Interface Prototypes</h2>
