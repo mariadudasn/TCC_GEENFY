@@ -85,6 +85,10 @@
 			<li><a href="#Functional Requirements">🟢Functional Requirements</a></li>
 			<li><a href="#Non-Functional Requirements">🔴Non-Functional Requirements</a></li>
 		</ul>
+	<li text-decoration="none"><a href="#Architecture">Architecture</a></li>
+		<ul>
+			<li><a href="#Entity-Relationship Diagram">Entity-Relationship Diagram</a></li>
+		</ul>
 </ul>
 
 <h2>Project Planning</h2>
@@ -532,7 +536,7 @@ Additionally, Kanban encourages the use of Work In Progress (WIP) limits, which 
 	<div align="center"><img src="https://github.com/user-attachments/assets/5ca2f5f0-4f40-4f76-a1cc-01954f9ede0e" alt="Entity-Relationship Diagram" width="400"></div>
 	<b>User Authentication Tables</b>
 </br></br>
-		<ol style="list-style-type: decimal;">
+		<ul>
 			<li>auth_user:
 				<ul>
 					<li>This table is essential for managing system users. It stores information such as:
@@ -557,27 +561,30 @@ Additionally, Kanban encourages the use of Work In Progress (WIP) limits, which 
 					<li>Since a user can belong to multiple groups (e.g., "Administrator" and "Manager"), this table connects users to their respective groups. This allows the system to easily verify which group a user belongs to and control what they can or cannot do within the platform.</li>
 				</ul>
 			</li>
-		</ol>
+		</ul>
 </br>
   <b>System-Specific Tables</b>
   </br></br>
 	<p>These tables are related to specific system functionalities that users directly interact with, such as file management, registrations, and classes.</p>
-  	<ol>
+  	<ul>
 		<li>geenfy_usuario:
 			<ul>
 				<li>Stores login information for external systems. This is useful if the system needs to access other platforms (e.g., third-party systems) by securely storing credentials like login and password.</li>
 			</ul>
 		</li>
+	</br>
 		<li>geenfy_cadastro and geenfy_cadastro_info:
 			<ul>
 				<li>Store data for visual registration on the site, including titles and images. geenfy_cadastro can serve as the main display for a registration section, while geenfy_cadastro_info complements this section with additional images or visual details.</li>
 			</ul>
 		</li>
+			</br>
 		<li>geenfy_funcionario:
 			<ul>
 				<li>Stores titles and images related to the employee page for a team listing section on the site.</li>
 			</ul>
 		</li>
+			</br>
 		<li>geenfy_finished_file and geenfy_in_progress_file:
 			<ul>
 				<li>These tables are responsible for storing files:</li>
@@ -588,37 +595,44 @@ Additionally, Kanban encourages the use of Work In Progress (WIP) limits, which 
 				<p>Both tables have fields indicating the class related to the file, when it was submitted (date and time), and the status (whether the file is completed or still in progress).</p>
 			</ul>
 		</li>
+			</br>
 		<li>geenfy_storage:
 			<ul>
 				<li>Stores titles that help categorize or identify documents with completed ID cards.</li>
 			</ul>
 		</li>
+			</br>
 		<li>geenfy_login:
 			<ul>
 				<li>Contains information for the login page, such as the title (page name and instructions) and images (logo and background) that are part of the visual identity.</li>
 			</ul>
 		</li>
+			</br>
 		<li>geenfy_novaturma:
 			<ul>
 				<li>Stores titles, descriptions, and images for the page where documents for new classes are inserted.</li>
 			</ul>
 		</li>
+			</br>
 		<li>geenfy_homepage:
 			<ul>
 				<li>Stores the main content of the homepage, with fields for the title, introduction text, and a featured image to customize the user's first impression when accessing the system.</li>
 			</ul>
 		</li>
+			</br>
 		<li>geenfy_perfil and geenfy_perfileditar:
 			<ul>
 				<li>Store visual information for user profiles, including names and profile images. geenfy_perfileditar stores visual information for the edit profile page.</li>
 			</ul>
 		</li>
+			</br>
 		<li>geenfy_processo:
 			<ul>
 				<li>Stores titles that clearly identify each phase of the process for the user.</li>
 			</ul>
 		</li>
-	</ol>
+	</ul>
+</br>
    <b>How Do These Tables Work Together?</b>
   </br></br>
   <p>These tables interact with each other to ensure the system operates efficiently. Login data is managed by one part of the system (the auth_user table and user groups), while other functionalities, such as student registration, file submission, and class management, are handled by the specific tables.
@@ -629,4 +643,5 @@ For example:
 	<li>After logging in, the user can access documents, view classes, or edit their profile by interacting with tables such as geenfy_cadastro, geenfy_novaturma, and geenfy_perfil.</li>
 	<li>The organization and control of files (in progress or completed) are managed by the geenfy_finished_file and geenfy_in_progress_file tables.</li>
 </ul>
+</br>
 The goal is to create a system that is user-friendly, secure, and efficient, capable of managing user and file information while providing a visual interface with images and texts. This enables users to interact with the system in a straightforward and intuitive way.</p>
