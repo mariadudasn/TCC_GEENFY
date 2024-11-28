@@ -815,5 +815,36 @@ ProjetoRPA/
 ├── README.md
 ```
 
-<li><b>Code documentation</b></li>
+<li><b>Code documentation</b>
+		<div align="center"><img src="https://github.com/user-attachments/assets/3b75ed9e-8109-4b9d-a78e-8c426fede322" alt="Code folder" width="400"></div>
+  		<p align="justify">This is the main directory of our project called "ProjetoRPA" in Visual Studio Code. "RPA" is a common acronym for Robotic Process Automation. This directory contains code files, scripts, and configurations for automation.</p>
+		</br>
+  		<div align="center"><img src="https://github.com/user-attachments/assets/e48ce0fe-4491-42f6-9ac3-de1c740275f6" alt="Code folder" width="400"></div>
+  		<ul>
+			<li align="justify"><b>ProjetoRPA folder:</b> This is the root folder of the project, containing all the resources, scripts, and dependencies needed for the development and execution of the project.</li>
+			<li align="justify"><b>RPA folder:</b> This subfolder contains the main scripts and code for the automation. Inside it, you can find files with automation logic to perform specific tasks such as interacting with websites, filling out forms, or manipulating documents.</li>
+			<li align="justify"><b>venv folder:</b>This is a virtual environment folder, which stores the Python dependencies and libraries used by the project. Using a virtual environment is a best practice to isolate the project's dependencies, ensuring it works with specific versions of libraries without affecting other Python projects on the same computer.</li>
+			<li align="justify"><b>README.md file: </b>This file is used to document the project.</li>
+		</ul>
+		</br>
+  		<div align="center"><img src="https://github.com/user-attachments/assets/e4d513c4-cbef-44bb-b62d-2abe2c155c26" alt="Code folder" width="400"></div>
+		<ul>
+			<li align="justify"><b>ProjetoRPA folder:</b> This is the root folder of the project that contains all the files and subfolders of the main project.</li>
+			<li align="justify"><b>RPA folder: </b> This is the main folder of the Django project, where the different parts of the web application are stored. Let's detail the subfolders:
+				<ul>
+					<li align="justify"><b>apiGeenfy: </b>Contains the logic for an API called "Geenfy". This folder includes files for setting up API endpoints that allow communication between systems.</li>
+					<li align="justify"><b>geenfy: </b>This is a separate Django application within the project, containing the main logic or specific features related to "Geenfy".</li>
+					<li align="justify"><b>media:  </b>This folder is used to store files uploaded by the user, such as images, documents, or other media files.</li>
+					<li align="justify"><b>RPA (duplicated with the name of the main folder):  </b>This is another Django app specifically performing automation tasks. It contains logic and scripts that directly interact with robotic process automation workflows.</li>
+					<li align="justify"><b>static:  </b>Folder for static files like CSS, JavaScript, and images. These files are used to define the style and visual behavior of the website.</li>
+					<li align="justify"><b>templates:  </b>Stores HTML files that make up the user interface of the website. In Django, templates are used to render dynamic pages that show database data or automation results.</li>
+				</ul>
+			</li>
+			<li align="justify"><b>db.sqlite3: </b>SQLite database file used by Django to store project data. In this database, you may have user data, automation records, logs, or other relevant information.</li>
+			<li align="justify"><b>downloaded_file: </b>This file may be used as a temporary location to store downloaded files during automation processes. For example, automation scripts may download files and save them here for later processing. </li>			
+			<li align="justify"><b>manage.py: </b>This is the Django management file, used to execute administrative commands such as starting the server (runserver), applying database migrations (migrate), and creating superusers (createsuperuser). </li>
+			<li align="justify"><b>venv folder: </b>Contains the virtual environment for the project. All the required Python libraries for the project, including Django and other automation dependencies, are installed here.</li>
+			<li align="justify"><b>README.md:  </b>Project documentation file.</li>	
+		</ul>
+</li>
 </ul>
