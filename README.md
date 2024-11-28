@@ -537,7 +537,7 @@ Additionally, Kanban encourages the use of Work In Progress (WIP) limits, which 
 	<b>User Authentication Tables</b>
 </br></br>
 		<ul>
-			<li><b>auth_user:</b>
+			<li align="justify"><b>auth_user:</b>
 				<ul>
 					<li>This table is essential for managing system users. It stores information such as:
 						<ul>
@@ -550,38 +550,38 @@ Additionally, Kanban encourages the use of Work In Progress (WIP) limits, which 
 				</ul>
 			</li>
 		</br>
-   			<li><b>auth_group:</b>
+   			<li align="justify"><b>auth_group:</b>
 				<ul>
 					<li>To organize users, the system uses groups. For example, one group may be for administrators and another for regular users. This simplifies permission management within the system.</li>
 				</ul>
 			</li>
 				</br>
-			<li><b>auth_user_groups:</b>
+			<li align="justify"><b>auth_user_groups:</b>
 				<ul>
-					<li>Since a user can belong to multiple groups (e.g., "Administrator" and "Manager"), this table connects users to their respective groups. This allows the system to easily verify which group a user belongs to and control what they can or cannot do within the platform.</li>
+					<li align="justify">Since a user can belong to multiple groups (e.g., "Administrator" and "Manager"), this table connects users to their respective groups. This allows the system to easily verify which group a user belongs to and control what they can or cannot do within the platform.</li>
 				</ul>
 			</li>
 		</ul>
 </br>
   <b>System-Specific Tables</b>
   </br></br>
-	<p>These tables are related to specific system functionalities that users directly interact with, such as file management, registrations, and classes.</p>
+	<p align="justify">These tables are related to specific system functionalities that users directly interact with, such as file management, registrations, and classes.</p>
   	<ul>
 		<li><b>geenfy_usuario:</b>
 			<ul>
-				<li>Stores login information for external systems. This is useful if the system needs to access other platforms (e.g., third-party systems) by securely storing credentials like login and password.</li>
+				<li align="justify">Stores login information for external systems. This is useful if the system needs to access other platforms (e.g., third-party systems) by securely storing credentials like login and password.</li>
 			</ul>
 		</li>
 	</br>
 		<li><b>geenfy_cadastro and geenfy_cadastro_info:</b>
 			<ul>
-				<li>Store data for visual registration on the site, including titles and images. geenfy_cadastro can serve as the main display for a registration section, while geenfy_cadastro_info complements this section with additional images or visual details.</li>
+				<li align="justify">Store data for visual registration on the site, including titles and images. geenfy_cadastro can serve as the main display for a registration section, while geenfy_cadastro_info complements this section with additional images or visual details.</li>
 			</ul>
 		</li>
 			</br>
 		<li><b>geenfy_funcionario:</b>
 			<ul>
-				<li>Stores titles and images related to the employee page for a team listing section on the site.</li>
+				<li align="justify">Stores titles and images related to the employee page for a team listing section on the site.</li>
 			</ul>
 		</li>
 			</br>
@@ -589,59 +589,76 @@ Additionally, Kanban encourages the use of Work In Progress (WIP) limits, which 
 			<ul>
 				<li>These tables are responsible for storing files:</li>
 					<ul>
-						<li>geenfy_finished_file: Stores files that have been completed and are ready to be used or delivered.</li>
-						<li>geenfy_in_progress_file: Stores files currently being processed or awaiting an action, such as review or approval.</li>
+						<li align="justify">geenfy_finished_file: Stores files that have been completed and are ready to be used or delivered.</li>
+						<li align="justify">geenfy_in_progress_file: Stores files currently being processed or awaiting an action, such as review or approval.</li>
 					</ul>
-				<p>Both tables have fields indicating the class related to the file, when it was submitted (date and time), and the status (whether the file is completed or still in progress).</p>
+				<p align="justify">Both tables have fields indicating the class related to the file, when it was submitted (date and time), and the status (whether the file is completed or still in progress).</p>
 			</ul>
 		</li>
 			</br>
 		<li><b>geenfy_storage:</b>
 			<ul>
-				<li>Stores titles that help categorize or identify documents with completed ID cards.</li>
+				<li align="justify">Stores titles that help categorize or identify documents with completed ID cards.</li>
 			</ul>
 		</li>
 			</br>
 		<li><b>geenfy_login:</b>
 			<ul>
-				<li>Contains information for the login page, such as the title (page name and instructions) and images (logo and background) that are part of the visual identity.</li>
+				<li align="justify">Contains information for the login page, such as the title (page name and instructions) and images (logo and background) that are part of the visual identity.</li>
 			</ul>
 		</li>
 			</br>
 		<li><b>geenfy_novaturma:</b>
 			<ul>
-				<li>Stores titles, descriptions, and images for the page where documents for new classes are inserted.</li>
+				<li align="justify">Stores titles, descriptions, and images for the page where documents for new classes are inserted.</li>
 			</ul>
 		</li>
 			</br>
 		<li><b>geenfy_homepage:</b>
 			<ul>
-				<li>Stores the main content of the homepage, with fields for the title, introduction text, and a featured image to customize the user's first impression when accessing the system.</li>
+				<li align="justify">Stores the main content of the homepage, with fields for the title, introduction text, and a featured image to customize the user's first impression when accessing the system.</li>
 			</ul>
 		</li>
 			</br>
 		<li><b>geenfy_perfil and geenfy_perfileditar:</b>
 			<ul>
-				<li>Store visual information for user profiles, including names and profile images. geenfy_perfileditar stores visual information for the edit profile page.</li>
+				<li align="justify">Store visual information for user profiles, including names and profile images. geenfy_perfileditar stores visual information for the edit profile page.</li>
 			</ul>
 		</li>
 			</br>
 		<li><b>geenfy_processo:</b>
 			<ul>
-				<li>Stores titles that clearly identify each phase of the process for the user.</li>
+				<li align="justify">Stores titles that clearly identify each phase of the process for the user.</li>
 			</ul>
 		</li>
 	</ul>
 </br>
    <b>How Do These Tables Work Together?</b>
   </br></br>
-  <p>These tables interact with each other to ensure the system operates efficiently. Login data is managed by one part of the system (the auth_user table and user groups), while other functionalities, such as student registration, file submission, and class management, are handled by the specific tables.
+  <p align="justify">These tables interact with each other to ensure the system operates efficiently. Login data is managed by one part of the system (the auth_user table and user groups), while other functionalities, such as student registration, file submission, and class management, are handled by the specific tables.
 
 For example:
 <ul>
-	<li>When a user logs in, the system checks the auth_user table to verify their existence and ensure the credentials are correct.</li>
-	<li>After logging in, the user can access documents, view classes, or edit their profile by interacting with tables such as geenfy_cadastro, geenfy_novaturma, and geenfy_perfil.</li>
-	<li>The organization and control of files (in progress or completed) are managed by the geenfy_finished_file and geenfy_in_progress_file tables.</li>
+	<li align="justify">When a user logs in, the system checks the auth_user table to verify their existence and ensure the credentials are correct.</li>
+	<li align="justify">After logging in, the user can access documents, view classes, or edit their profile by interacting with tables such as geenfy_cadastro, geenfy_novaturma, and geenfy_perfil.</li>
+	<li align="justify">The organization and control of files (in progress or completed) are managed by the geenfy_finished_file and geenfy_in_progress_file tables.</li>
 </ul>
 </br>
 The goal is to create a system that is user-friendly, secure, and efficient, capable of managing user and file information while providing a visual interface with images and texts. This enables users to interact with the system in a straightforward and intuitive way.</p>
+
+<li id="Use Case Diagram"><b>Use Case Diagram</b></li>
+<div align="center"><img src="https://github.com/user-attachments/assets/24403b5f-62cf-4326-a4f6-014b43c5d9f8" alt="Use Case Diagram" width="400"></div>
+<p align="justify">This diagram is a visual representation of the actions that two people with different roles – called "Employee" and "Coordinator" – can perform within a system.
+
+In the diagram, we have two characters (represented by human figures): the "Employee" and the "Coordinator." These characters have access to various system functions, represented by oval shapes in the center. Each line connecting the characters to the functions indicates that the person can perform that specific action.</p>
+<ul>
+	<li><b>Download ID cards:</b> Both the Employee and the Coordinator can download student ID cards.</li>
+	<li><b>Delete ID cards:</b> Both have permission to delete generated ID cards.</li>
+	<li><b>Start pending file:</b> Either of them can begin processing a file from the pending list.</li>
+	<li><b>Delete pending files:</b> They can also remove files from the pending list if they are no longer needed.</li>
+	<li><b>Add .xlsx file:</b> Both can upload .xlsx files (Excel files) to the system.</li>
+	<li><b>Edit profile data:</b> Both the Employee and the Coordinator can modify their own profile information.</li>
+	<li><b>Delete employees:</b> Only the Coordinator can delete an employee's profile from the system.</li>
+	<li><b>Register employees:</b> Only the Coordinator can register new employees in the system.</li>
+	<li><b>List employees:</b> The Coordinator can view a list of all registered employees.</li>
+</ul>
