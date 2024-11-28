@@ -85,9 +85,9 @@
 			<li><a href="#Functional Requirements">🟢Functional Requirements</a></li>
 			<li><a href="#Non-Functional Requirements">🔴Non-Functional Requirements</a></li>
 		</ul>
-	<li text-decoration="none"><a href="#Architecture">Architecture</a></li>
+	<li text-decoration="none"><a href="#Architecture">📐Architecture</a></li>
 		<ul>
-			<li><a href="#Entity-Relationship Diagram">Entity-Relationship Diagram</a></li>
+			<li><a href="#Entity-Relationship Diagram">🖍Entity-Relationship Diagram</a></li>
 		</ul>
 </ul>
 
@@ -537,7 +537,7 @@ Additionally, Kanban encourages the use of Work In Progress (WIP) limits, which 
 	<b>User Authentication Tables</b>
 </br></br>
 		<ul>
-			<li>auth_user:
+			<li><b>auth_user:</b>
 				<ul>
 					<li>This table is essential for managing system users. It stores information such as:
 						<ul>
@@ -550,13 +550,13 @@ Additionally, Kanban encourages the use of Work In Progress (WIP) limits, which 
 				</ul>
 			</li>
 		</br>
-   			<li>auth_group:
+   			<li><b>auth_group:</b>
 				<ul>
 					<li>To organize users, the system uses groups. For example, one group may be for administrators and another for regular users. This simplifies permission management within the system.</li>
 				</ul>
 			</li>
 				</br>
-			<li>auth_user_groups:
+			<li><b>auth_user_groups:</b>
 				<ul>
 					<li>Since a user can belong to multiple groups (e.g., "Administrator" and "Manager"), this table connects users to their respective groups. This allows the system to easily verify which group a user belongs to and control what they can or cannot do within the platform.</li>
 				</ul>
@@ -567,25 +567,25 @@ Additionally, Kanban encourages the use of Work In Progress (WIP) limits, which 
   </br></br>
 	<p>These tables are related to specific system functionalities that users directly interact with, such as file management, registrations, and classes.</p>
   	<ul>
-		<li>geenfy_usuario:
+		<li><b>geenfy_usuario:</b>
 			<ul>
 				<li>Stores login information for external systems. This is useful if the system needs to access other platforms (e.g., third-party systems) by securely storing credentials like login and password.</li>
 			</ul>
 		</li>
 	</br>
-		<li>geenfy_cadastro and geenfy_cadastro_info:
+		<li><b>geenfy_cadastro and geenfy_cadastro_info:</b>
 			<ul>
 				<li>Store data for visual registration on the site, including titles and images. geenfy_cadastro can serve as the main display for a registration section, while geenfy_cadastro_info complements this section with additional images or visual details.</li>
 			</ul>
 		</li>
 			</br>
-		<li>geenfy_funcionario:
+		<li><b>geenfy_funcionario:</b>
 			<ul>
 				<li>Stores titles and images related to the employee page for a team listing section on the site.</li>
 			</ul>
 		</li>
 			</br>
-		<li>geenfy_finished_file and geenfy_in_progress_file:
+		<li><b>geenfy_finished_file and geenfy_in_progress_file:</b>
 			<ul>
 				<li>These tables are responsible for storing files:</li>
 					<ul>
@@ -596,37 +596,37 @@ Additionally, Kanban encourages the use of Work In Progress (WIP) limits, which 
 			</ul>
 		</li>
 			</br>
-		<li>geenfy_storage:
+		<li><b>geenfy_storage:</b>
 			<ul>
 				<li>Stores titles that help categorize or identify documents with completed ID cards.</li>
 			</ul>
 		</li>
 			</br>
-		<li>geenfy_login:
+		<li><b>geenfy_login:</b>
 			<ul>
 				<li>Contains information for the login page, such as the title (page name and instructions) and images (logo and background) that are part of the visual identity.</li>
 			</ul>
 		</li>
 			</br>
-		<li>geenfy_novaturma:
+		<li><b>geenfy_novaturma:</b>
 			<ul>
 				<li>Stores titles, descriptions, and images for the page where documents for new classes are inserted.</li>
 			</ul>
 		</li>
 			</br>
-		<li>geenfy_homepage:
+		<li><b>geenfy_homepage:</b>
 			<ul>
 				<li>Stores the main content of the homepage, with fields for the title, introduction text, and a featured image to customize the user's first impression when accessing the system.</li>
 			</ul>
 		</li>
 			</br>
-		<li>geenfy_perfil and geenfy_perfileditar:
+		<li><b>geenfy_perfil and geenfy_perfileditar:</b>
 			<ul>
 				<li>Store visual information for user profiles, including names and profile images. geenfy_perfileditar stores visual information for the edit profile page.</li>
 			</ul>
 		</li>
 			</br>
-		<li>geenfy_processo:
+		<li><b>geenfy_processo:</b>
 			<ul>
 				<li>Stores titles that clearly identify each phase of the process for the user.</li>
 			</ul>
