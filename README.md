@@ -90,6 +90,12 @@
 			<li><a href="#Entity-Relationship Diagram">🖍Entity-Relationship Diagram</a></li>
 			<li><a href="#Entity-Relationship Diagram">🟣Use Case Diagram</a></li>
 		</ul>
+	<li text-decoration="none"><a href="#Interface Prototypes">💡Interface Prototypes</a></li>
+		<ul>
+			<li><a href="#General Screens">🗃General Screens</a></li>
+			<li><a href="#Screens added for the coordinator user">📁Screens added for the coordinator user</a></li>
+			<li><a href="#Screen added for the employee user">📂Screen added for the employee user</a></li>
+		</ul>
 </ul>
 
 <h2>Project Planning</h2>
@@ -662,4 +668,48 @@ In the diagram, we have two characters (represented by human figures): the "Empl
 	<li><b>Delete employees:</b> Only the Coordinator can delete an employee's profile from the system.</li>
 	<li><b>Register employees:</b> Only the Coordinator can register new employees in the system.</li>
 	<li><b>List employees:</b> The Coordinator can view a list of all registered employees.</li>
+</ul>
+</ul>
+
+<h2>Interface Prototypes</h2>
+
+<ul>
+	<li id="General Screens"><b>General Screens</b>
+	</br></br>
+		<div align="center"><img src="https://github.com/user-attachments/assets/862b7ccc-e5c9-41dd-b196-1603c1801d78" alt="Homepage" width="800"></div>
+	 	<p align="center">Homepage</p>
+		</br>
+		<div align="center"><img src="https://github.com/user-attachments/assets/52ece350-b284-44c3-8c40-86841c288be5" alt="Login screen" width="800"></div>
+	 	<p align="center">Login screen</p>
+		</br>
+		<div align="center"><img src="https://github.com/user-attachments/assets/e85f07ab-36e6-4523-801e-dcc94267fcd2" alt="Screen where the .xlsx file is added" width="800"></div>
+	 	<p align="center">Screen where the .xlsx file is added</p>
+		</br>
+		<div align="center"><img src="https://github.com/user-attachments/assets/47cde4ba-2a6d-4386-a7aa-4453001ab001" alt="Screen showing the process status" width="800"></div>
+	 	<p align="center">Screen showing the process status</p>
+		</br>
+		<div align="center"><img src="https://github.com/user-attachments/assets/c06bd618-4828-4e28-9ed2-9d64f90e33ee" alt="Screen where the completed ID cards are stored" width="800"></div>
+	 	<p align="center">Screen where the completed ID cards are stored</p>
+		</br>
+		<div align="center"><img src="https://github.com/user-attachments/assets/c4682421-ec65-4282-b239-28d5f7166239" alt="Screen for user profile viewing" width="800"></div>
+	 	<p align="center">Screen for user profile viewing</p>
+		</br>
+		<div align="center"><img src="https://github.com/user-attachments/assets/2d942fcc-f8b5-40b2-822c-cbaa241c80eb" alt="Screen for user profile editing" width="800"></div>
+	 	<p align="center">Screen for user profile editing</p>
+	</li>
+ 	<li id="Screens added for the coordinator user"><b>Screens added for the coordinator user</b>
+	</br></br>
+		<div align="center"><img src="https://github.com/user-attachments/assets/2b8d4646-da94-44a6-a139-97c4a0ada4e4" alt="Employee registration screen" width="800"></div>
+	 	<p align="center">Employee registration screen</p>
+		</br>
+		<div align="center"><img src="https://github.com/user-attachments/assets/a054dd1e-2303-4170-80de-5229292b0f04" alt="Screen for viewing all employees" width="800"></div>
+	 	<p align="center">Screen for viewing all employees</p>
+	</li>
+  	<li id="Screen added for the employee user"><b>Screen added for the employee user</b>
+	</br></br>
+		<div align="center"><img src="https://github.com/user-attachments/assets/1a5ecee6-4f2e-49cf-aedb-9459e96dbd51" alt="Screen where the employee must input their additional information" width="800"></div>
+	 	<p align="center">Screen where the employee must input their additional information</p>
+	</li>
+
+
 </ul>
