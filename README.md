@@ -1267,7 +1267,7 @@ python .\manage.py runserver
 <div align="center"><img src="https://github.com/user-attachments/assets/bce358d8-87ba-4e8d-8e77-f25386c234bf" alt="Preparation of the work environment"></div>	
 
 
-<h2> Create by: </h2>
+<h2> Create by</h2>
 <div align="center">
     <table>
     <tr>
