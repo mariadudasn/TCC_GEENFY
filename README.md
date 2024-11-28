@@ -959,5 +959,33 @@ ProjetoRPA/
 			<li align="justify"><b>styleNovaTurma.css: </b> Provides custom styling for the View Profile page. It contains style rules that affect the layout, colors, fonts, and interactive elements of the authentication screen, ensuring a consistent and visually pleasant user experience.</li>
 			<li align="justify"><b>styleProcesso.css: </b> Provides custom styling for the View Process page. It contains style rules that affect the layout, colors, fonts, and interactive elements of the authentication screen, ensuring a consistent and visually pleasant user experience.</li>
 		</ul>
+    		</br>
+    		<div align="center"><img src="https://github.com/user-attachments/assets/21d4a3de-2d1e-47f5-89db-19eede69b3d0" alt="Code folder" width="400"></div>
+      		<p><b>IMG Folder</b></p>
+		<p align="justify">Store images.</p>
+    		</br>
+    		<div align="center"><img src="https://github.com/user-attachments/assets/bbec4dd5-2dde-4a84-a104-7dfa5b2eeda0" alt="Code folder" width="400"></div>
+      		<p><b>JS Folder</b></p>
+    		<ul>
+			<li align="justify"><b>animationArmazenamento.js: </b> This file contains JavaScript scripts responsible for adding animations and visual interactions on the Storage page of the system. This file enhances the user experience (UX) by making the interface more dynamic and responsive.</li>
+			<li align="justify"><b>animationCadastro.js: </b> This file contains JavaScript scripts responsible for adding animations and visual interactions on the Registration page of the system. This file enhances the user experience (UX) by making the interface more dynamic and responsive.</li>
+			<li align="justify"><b>animationEditarPerfil.js: </b> This file contains JavaScript scripts responsible for adding animations and visual interactions on the Edit Profile page of the system. This file enhances the user experience (UX) by making the interface more dynamic and responsive.</li>
+			<li align="justify"><b>animationFuncionarios.js: </b> This file contains JavaScript scripts responsible for adding animations and visual interactions on the View Employees page of the system. This file enhances the user experience (UX) by making the interface more dynamic and responsive.</li>
+			<li align="justify"><b>animationHomeBtn.js: </b> This file contains JavaScript scripts responsible for adding animations and visual interactions on the button of the Homepage page. This file enhances the user experience (UX) by making the interface more dynamic and responsive.</li>
+			<li align="justify"><b>animationLogin.js: </b> This file contains JavaScript scripts responsible for adding animations and visual interactions on the Login page of the system. This file enhances the user experience (UX) by making the interface more dynamic and responsive.</li>
+			<li align="justify"><b>animationNovaTurma.js: </b> This file contains JavaScript scripts responsible for adding animations and visual interactions on the New Class page of the system. This file enhances the user experience (UX) by making the interface more dynamic and responsive.</li>
+			<li align="justify"><b>animationProcesso.js: </b> This file contains JavaScript scripts responsible for adding animations and visual interactions on the View Processes page of the system. This file enhances the user experience (UX) by making the interface more dynamic and responsive.</li>
+			<li align="justify"><b>atualizacao.js: </b> Checks if there is a file in the API route.</li>
+			<li align="justify"><b>clearForms.js: </b> This file contains JavaScript scripts responsible for clearing the information from the Registration forms.</li>
+		</ul>
+    		</br>
+    		<div align="center"><img src="https://github.com/user-attachments/assets/f89461f2-5710-4a9c-8c05-2fdc9e4cce06" alt="Code folder" width="400"></div>
+    		<ul>
+			<li align="justify"><b>File - index.html: </b> The index.html file is the home page (homepage) of the web application. It serves as the entry point for users and is responsible for providing an overview of the platform. It presents an overview of the application as soon as the user accesses the site and contains links and shortcuts to other important sections of the site, making navigation easier.</li>
+			<li align="justify"><b>File - navbar.html: </b> The navbar.html file contains the reusable navigation bar of the application. It is used to provide consistent navigation across various pages of the site.</li>
+		</ul>
+    		</br>
+    		<div align="center"><img src="https://github.com/user-attachments/assets/7bb13525-fde0-4bd2-aaa0-cc66e0ea99a3" alt="Code folder" width="400"></div>
+      		<p align="justify">The use of virtual environments in Python project development, through the venv tool, is an essential practice to ensure organization and efficiency in managing dependencies. Venv is an integrated feature in Python that allows the creation of isolated environments, where each project can have its own versions of libraries and packages, without interfering with the global configurations of the operating system. This means that by using venv, you can avoid version conflicts between different projects, especially when they depend on specific versions of the same library.</p>
 </li>
 </ul>
