@@ -101,6 +101,11 @@
 			<li><a href="#Code Structure">🟤Code Structure</a></li>
 			<li><a href="#Code documentation">🟠Code documentation</a></li>
 		</ul>
+	<li text-decoration="none"><a href="#Necessary-Deployments">❗Necessary Deployments</a></li>
+		<ul>
+			<li><a href="#DJANGO">✳DJANGO</a></li>
+			<li><a href="#RASPBERRY">🛑RASPBERRY</a></li>
+		</ul>
 </ul>
 
 <h2>Project Planning</h2>
@@ -1016,7 +1021,7 @@ ProjetoRPA/
 
 
 <ul>
-	<li align="justify"><b>DJANGO: </b> Deployment Example
+	<li align="justify" id="DJANGO"><b>DJANGO: </b> Deployment Example
 </br></br>
 		<ul>
 			<li align="justify"><b>1st Step: </b> Create a folder.</li>
@@ -1067,5 +1072,43 @@ python .\manage.py runserver
 <div align="center"><img src="https://github.com/user-attachments/assets/86cc9ae3-7540-4323-b2f6-e08ad71ac2ed" alt="Django"></div>
 		</ul>
 	</li>
-	
+ </br>
+ 	<li align="justify" id="RASPBERRY"><b>RASPBERRY: </b> Deployment Example
+	<p>→ Download the Raspberry image to the SD card</p>
+	<div align="center"><img src="https://github.com/user-attachments/assets/b06c54bd-99b9-4676-90be-f96dfa0b2acf" alt="Raspberry image"></div>
+	</br>
+ 	<p>→ Configure Raspberry Pi Imager</p>
+	<div align="center"><img src="https://github.com/user-attachments/assets/cfafdbdb-491d-4a39-a4d2-a4669a2a28fc" alt="Raspberry image"></div>
+ 	<ul>
+		<li><b>Raspberry Pi Device: </b>Raspberry Pi 4.</li>
+		<li><b>Operating System: </b>Raspberry Pi OS (64-bit).</li>
+		<li><b>Storage: </b>Generic- SD/MMC/MS PRO USB Device-31.9GB.</li>
+		<p>→ NEXT</p>
+	</ul>
+ 	<div align="center"><img src="https://github.com/user-attachments/assets/2c72dfe0-85d1-42e3-87fe-a2c2a8aab720" alt="Raspberry image"></div>
+  	<p>→ EDIT SETTINGS</p>
+	<p>→ GENERAL:</p>
+ 	<div align="center"><img src="https://github.com/user-attachments/assets/bc862087-418d-4bd9-8661-ef3ed961bb85" alt="Raspberry image"></div>
+	<p>→ Settings:</p>
+ 	<ul>
+		<li><b>Set hostname: </b>projetoIA.</li>
+		<li><b>Username: </b>instrutor.</li>
+		<li><b>Set locale settings.</li>
+		<li><b>Time zone: </b>America/Sao_Paulo.</li>
+		<li><b>Keyboard layout: </b>pt.</li>
+	</ul>
+	<p>→ SAVE</p>
+	<p>→ SERVICES:</p>
+ 	<div align="center"><img src="https://github.com/user-attachments/assets/253828aa-ca45-4a31-a035-b4fb86763a3b" alt="Raspberry image"></div>
+	<p>→ Enable SSH ✅</p>
+	<p>Note: SSH - A remote communication protocol via terminal; through the terminal, we can access the Raspberry Pi and perform configurations. </p>
+	<p>→ SAVE</p>
+	<div align="center"><img src="https://github.com/user-attachments/assets/efa2f4bb-feee-4152-9d2b-706c8eee9e69" alt="Raspberry image"></div>	
+	<p>→ Click the "YES" button to create the image on the SD card.</p>
+  </li>	
 </ul>
+
+<h2>Preparation of the work environment</h2>
+<div align="center"><img src="https://github.com/user-attachments/assets/bce358d8-87ba-4e8d-8e77-f25386c234bf" alt="Preparation of the work environment"></div>	
+
+
