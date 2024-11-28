@@ -113,7 +113,7 @@
 		<ul>
 			<li><a href="#Python on Raspberry Pi">🐍Python on Raspberry Pi</a></li>
 			<li><a href="#Necessary Libraries for Deployment">📒Necessary Libraries for Deployment</a></li>
-			<li><a href="#Necessary Libraries for Deployment">📘Necessary Framework for Tests</a></li>
+			<li><a href="#Necessary Framework for Tests">📘Necessary Framework for Tests</a></li>
 		</ul>
 	<li text-decoration="none"><a href="#Create-by">❤Create by</a></li>
 </ul>
