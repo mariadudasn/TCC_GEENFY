@@ -88,6 +88,7 @@
 	<li text-decoration="none"><a href="#Architecture">📐Architecture</a></li>
 		<ul>
 			<li><a href="#Entity-Relationship Diagram">🖍Entity-Relationship Diagram</a></li>
+			<li><a href="#Entity-Relationship Diagram">🟣Use Case Diagram</a></li>
 		</ul>
 </ul>
 
