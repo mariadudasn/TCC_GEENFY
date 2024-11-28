@@ -793,7 +793,8 @@ In the diagram, we have two characters (represented by human figures): the "Empl
 </br>
 <li id="System Architecture Diagram"><b>System Architecture Diagram</b></li>
 </br>
-<div align="center"><img src="https://github.com/user-attachments/assets/f6dccc8e-651a-4bd5-9f83-d13b8ecd338f" alt="System Architecture Diagram"></div>
+
+<div align="center"><img src="https://github.com/user-attachments/assets/cde62621-eeb9-4f74-8278-e8623d4de368" alt="System Architecture Diagram"></div>
 <ul>
 	<li align="justify"><b>Result (dark blue):</b>
 		<ul>
