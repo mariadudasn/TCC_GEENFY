@@ -864,6 +864,7 @@ ProjetoRPA/
 			<li align="justify"><b>urls.py: </b> A file for defining the routes (URLs) of the API. Each route maps a URL to a function or class in views.py. For example, you can define routes to create, read, update, and delete API resources.</li>
 			<li align="justify"><b>views.py: </b> A file containing the main logic of the API. Here you define the functions or control classes that handle HTTP requests and return responses. Each view is associated with a route in urls.py and can handle operations like GET, POST, PUT, and DELETE.</li>
 		</ul>
+  		</br>
     		<div align="center"><img src="https://github.com/user-attachments/assets/c6ac3e79-df2d-4f63-b6d0-ec0c75de4f40" alt="Code folder" width="400"></div>
     		<ul>
 			<li align="justify"><b>__pycache__ folder:</b> Stores Python bytecode cache files to optimize code loading.</li>
@@ -879,6 +880,46 @@ ProjetoRPA/
 			<li align="justify"><b>urls.py: </b> Defines the specific routes (URLs) for the geenfy application. Each URL maps a route to a function or class in views.py, controlling how HTTP requests are routed.</li>
 			<li align="justify"><b>views.py: </b> Contains the view logic for the application. This file defines the functions or classes that process HTTP requests and return responses to the user, such as displaying templates, handling forms, or interacting with the database.</li>
 		</ul>
-    
+  		</br>
+    		<div align="center"><img src="https://github.com/user-attachments/assets/153419e4-4037-4812-b16d-069d76a37790" alt="Code folder" width="400"></div>
+      		<p><b>Templates folder</b></p>
+    		<ul>
+			<li align="justify"><b>armazenamento.html: </b> This file is related to the viewing or management of the finalized identification cards.</li>
+			<li align="justify"><b>cad_info.html: </b> Used to collect additional information in the system, it is a supplementary form for registering more detailed user information.</li>
+			<li align="justify"><b>cadastro.html: </b> Responsible for the page where new users or employees can be registered. It contains a form that allows the coordinator to register new users.</li>
+			<li align="justify"><b>editar_perfil.html: </b> Page where users can edit their profile information. It includes fields such as name, email, and other personal data that can be updated.</li>
+			<li align="justify"><b>funcionarios.html: </b> Page listing the employees registered in the system, with the ability to perform actions such as editing and deleting.</li>
+			<li align="justify"><b>homepage.html: </b> The system's homepage, also serving as a starting point after logging in.</li>
+			<li align="justify"><b>login.html: </b> Page dedicated to user authentication. It includes fields for entering a username and password, allowing secure access to the system.</li>
+			<li align="justify"><b>novaTurma.html: </b> Used to create new classes in the system, enabling the creation of identification cards.</li>
+			<li align="justify"><b>perfil.html: </b> Displays the details of the logged-in user's profile. It shows information such as name and email, and provides access to edit these details.</li>
+			<li align="justify"><b>processo.html: </b> Related to the management of the process of creating identification cards.</li>
+		</ul>
+  		</br>
+    		<div align="center"><img src="https://github.com/user-attachments/assets/162a9a01-8854-40e2-a52c-518c98e50ca2" alt="Code folder" width="400"></div>
+      		<p align="justify">The media folder is used to store media files dynamically uploaded to the system, such as images. In a Django project, this folder is commonly used to store files uploaded by users.</p>
+    		<ul>
+			<li align="justify"><b>finished_files: </b> Contains files that have already been processed or finalized. This may include images or other types of files ready for use in reports, final displays, or backups.</li>
+			<li align="justify"><b>imgCadastro: </b> Stores images related to the registration page, such as icons used in this section. It may include illustrations to enhance the interface during the process of registering new users.</li>
+			<li align="justify"><b>imgFuncionarios: </b> Contains images associated with the employees section, such as icons used in the employee listing and management page.</li>
+			<li align="justify"><b>imgHome: </b> Used to store images displayed on the homepage. This may include logos or featured images used on the dashboard after logging in.</li>
+			<li align="justify"><b>imgInfo: </b> Intended for images that appear on the additional information page.</li>
+			<li align="justify"><b>imgLogin: </b> Stores images for the login page.</li>
+			<li align="justify"><b>imgNovaTurma: </b> Stores images related to the page for adding a new class for the identification card creation process.</li>
+			<li align="justify"><b>imgPerfil: </b> Contains photos for the user profile page.</li>
+			<li align="justify"><b>imgPerfilEditar: </b> Used to store images that appear on the profile editing page.</li>
+			<li align="justify"><b>in_progress_files: </b> A folder for storing temporary files that are still being processed or edited. It is ideal for storing uploads that have not yet been approved or reviewed.</li>
+		</ul>
+  		</br>
+    		<div align="center"><img src="https://github.com/user-attachments/assets/3aff309d-2044-430d-9005-002383344108" alt="Code folder" width="400"></div>
+      		<p align="justify">The image shows the file structure of a Django project within the main folder called RPA.</p>
+    		<ul>
+			<li align="justify"><b>__pycache__/: </b> This is a folder automatically generated by Python that contains compiled files (.pyc). They are used to speed up code execution, as Python doesn't need to recompile unchanged files. Typically, this folder is ignored in version control (like in .gitignore).</li>
+			<li align="justify"><b>__init__.py: </b> A file used to mark the RPA folder as a Python module. This means you can import files from this directory into other parts of your project. Typically, this file is empty, but it can be used to execute package initialization code.</li>
+			<li align="justify"><b>asgi.py: </b> Configuration for ASGI (Asynchronous Server Gateway Interface), the successor of WSGI. It allows the Django project to support asynchronous applications, such as websockets and other real-time features.</li>
+			<li align="justify"><b>settings.py: </b> Contains all the settings for your Django project, such as database configurations, static file paths, middleware settings, installed apps (INSTALLED_APPS), and other essential variables.</li>
+			<li align="justify"><b>urls.py: </b> Defines the URL routing for your project. This is where you specify which URLs should be handled by which views. This file serves as a route map that directs traffic to the appropriate functions or classes in your project.</li>
+			<li align="justify"><b>wsgi.py: </b> Configuration for WSGI (Web Server Gateway Interface), which is used to deploy your Django project on traditional web servers like Apache or Nginx. It acts as the entry point for the web server, which forwards HTTP requests to your Django project.</li>
+		</ul>
 </li>
 </ul>
