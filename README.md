@@ -715,16 +715,15 @@ In the diagram, we have two characters (represented by human figures): the "Empl
 <h2>Code</h2>
 <ul>
 	<li><b>Code structure</b></li>
-</ul>
-### Code structure
-```plaintext
+
+```
 ProjetoRPA/
 ├── RPA/
 │   ├── apiGeenfy/
 │   │   ├── __pycache__/
 │   │   ├── migrations/
 │   │   │   ├── __pycache__/
-│   │   │   └── __init__.py
+│   │   │   └── __init.py__.py
 │   │   ├── __init__.py
 │   │   ├── admin.py
 │   │   ├── apps.py
@@ -767,7 +766,7 @@ ProjetoRPA/
 │   │   ├── imgLogin/
 │   │   ├── imgNovaTurma/
 │   │   ├── imgPerfil/
-│   │   ├── imgPerfilEditar/
+│   │   ├── imgPerfilEdiatar/
 │   │   └── in_progress_files/
 │   ├── RPA/
 │   │   ├── __pycache__/
@@ -814,5 +813,7 @@ ProjetoRPA/
 │   ├── Scripts/
 │   └── pyvenv.cfg
 ├── README.md
+```
 
-
+<li><b>Code documentation</b></li>
+</ul>
