@@ -688,6 +688,8 @@ In the diagram, we have two characters (represented by human figures): the "Empl
 
 <h2>Interface Prototypes</h2>
 
+![Interface Prototypes](https://github.com/user-attachments/assets/c820c768-1476-444d-9067-8c58333d8e51)
+
 <ul>
 	<li id="General Screens"><b>General Screens</b>
 	</br></br>
@@ -728,6 +730,9 @@ In the diagram, we have two characters (represented by human figures): the "Empl
 </ul>
 
 <h2>Code</h2>
+
+![Code](https://github.com/user-attachments/assets/792d9d7a-65e0-4f4e-83dd-f42b733560ee)
+
 <ul>
 	<li id="Code Structure"><b>Code Structure</b></li>
 
@@ -1003,4 +1008,64 @@ ProjetoRPA/
     		<div align="center"><img src="https://github.com/user-attachments/assets/7bb13525-fde0-4bd2-aaa0-cc66e0ea99a3" alt="Code folder" width="400"></div>
       		<p align="justify">The use of virtual environments in Python project development, through the venv tool, is an essential practice to ensure organization and efficiency in managing dependencies. Venv is an integrated feature in Python that allows the creation of isolated environments, where each project can have its own versions of libraries and packages, without interfering with the global configurations of the operating system. This means that by using venv, you can avoid version conflicts between different projects, especially when they depend on specific versions of the same library.</p>
 </li>
+</ul>
+
+<h2>Necessary Deployments</h2>
+
+![Necessary Deployments](https://github.com/user-attachments/assets/96ec11fa-04df-45af-af9d-35931f98b2f7)
+
+
+<ul>
+	<li align="justify"><b>DJANGO: </b> Deployment Example
+</br></br>
+		<ul>
+			<li align="justify"><b>1st Step: </b> Create a folder.</li>
+			</br>
+			<li align="justify"><b>2nd Step: </b> Create a virtual work environment</li>
+</br>
+			
+```
+python -m venv venv
+```
+</br>
+<li align="justify"><b>3rd Step: </b> Activate the virtual work environment.</li>
+</br>
+			
+```
+.\venv\Scripts\Activate.ps1
+```
+</br>
+<li align="justify"><b>4th Step: </b> Install Django.</li>
+</br>
+			
+```
+pip install django
+```
+</br>
+<li align="justify"><b>5th Step: </b> Create a project.</li>
+<p align="justify">Note: Always create the name in the singular form.</p>
+
+```
+django-admin startproject Aula_Teste
+```
+</br>
+
+<div align="center"><img src="https://github.com/user-attachments/assets/02e41e5b-6676-4aa2-a9d6-bea799aba873" alt="Django" width="400"></div>
+<p align="center">Note: Manage.py → Executes the main & "Aula_Teste" is the project that contains parameterization files.</p>
+</br>
+<li align="justify"><b>6th Step: </b> Navigate to the directory.</li>
+
+```
+cd .\Aula_Teste\
+```
+</br>
+<li align="justify"><b>7th Step: </b></li>
+
+```
+python .\manage.py runserver
+```
+<div align="center"><img src="https://github.com/user-attachments/assets/86cc9ae3-7540-4323-b2f6-e08ad71ac2ed" alt="Django"></div>
+		</ul>
+	</li>
+	
 </ul>
