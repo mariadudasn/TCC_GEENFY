@@ -105,6 +105,8 @@
 
 <h2>Project Planning</h2>
 
+![Project Planning](https://github.com/user-attachments/assets/631f511f-3f58-4892-8780-25a5bf3aea7f)
+
 <div align="justify">
 📅The project developed by the team aims to automate the process of issuing identification cards for students enrolled in FIC courses (Initial and Continuing Training) at the SENAI Jundiaí unit. Currently, this responsibility falls to the institution's administrative office, and the task is performed entirely manually. This procedure, in addition to being repetitive, requires a considerable amount of the staff's time, negatively impacting the performance of other activities and compromising the office's operational efficiency.
 
@@ -182,7 +184,9 @@ At the end of the development, the system is expected to meet the needs of SENAI
 </ul>
 </div>
 
-<h2>Project justification</h2>
+<h2>Project Justification</h2>
+
+![Project Justification](https://github.com/user-attachments/assets/a8627bec-7b86-4261-9929-9cd6a42bfba7)
 
 <div align="justify">
 📝The decision to develop an RPA (Robotic Process Automation) for issuing ID cards for students of SENAI Jundiaí's FIC (Initial and Continuing Education) courses is based on the need to optimize the administrative processes of the institution's office.
@@ -203,6 +207,8 @@ Finally, the impact of this project extends beyond the institution itself. The d
 </div>
 
 <h2>Methodology</h2>
+
+![Methodology](https://github.com/user-attachments/assets/7629c557-5f9d-4445-8863-b26d8ec04eb0)
 
 <ul>
 	<li id="Programming-Language"><b>Programming Language</b></li>
@@ -467,6 +473,8 @@ Additionally, Kanban encourages the use of Work In Progress (WIP) limits, which 
 
 <h2>Requirements Gathering</h2>
 
+![Requirements Gathering](https://github.com/user-attachments/assets/8016423b-c132-4291-ba40-93aeb558002c)
+
 <ul>
 	<li id="Functional Requirements"><b>Functional Requirements</b></li>
 </br>
@@ -541,6 +549,8 @@ Additionally, Kanban encourages the use of Work In Progress (WIP) limits, which 
 </ul>
 
 <h2>Architecture</h2>
+
+![Architecture](https://github.com/user-attachments/assets/314c27d6-0541-4e46-98ee-0e4743e3b202)
 
 <ul>
 	<li id="Entity-Relationship Diagram"><b>Entity-Relationship Diagram</b></li>
