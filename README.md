@@ -710,6 +710,109 @@ In the diagram, we have two characters (represented by human figures): the "Empl
 		<div align="center"><img src="https://github.com/user-attachments/assets/1a5ecee6-4f2e-49cf-aedb-9459e96dbd51" alt="Screen where the employee must input their additional information" width="800"></div>
 	 	<p align="center">Screen where the employee must input their additional information</p>
 	</li>
-
-
 </ul>
+
+<h2>Code</h2>
+<ul>
+	<li><b>Code structure</b></li>
+</ul>
+### Code structure
+```plaintext
+ProjetoRPA/
+├── RPA/
+│   ├── apiGeenfy/
+│   │   ├── __pycache__/
+│   │   ├── migrations/
+│   │   │   ├── __pycache__/
+│   │   │   └── __init__.py
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── models.py
+│   │   ├── serializers.py
+│   │   ├── tests.py
+│   │   ├── urls.py
+│   │   └── views.py
+│   ├── geenfy/
+│   │   ├── __pycache__/
+│   │   ├── migrations/
+│   │   │   ├── __pycache__/
+│   │   │   └── __init__.py
+│   │   ├── templates/
+│   │   │   ├── armazenamento.html
+│   │   │   ├── cad_info.html
+│   │   │   ├── cadastro.html
+│   │   │   ├── editar_perfil.html
+│   │   │   ├── funcionarios.html
+│   │   │   ├── homepage.html
+│   │   │   ├── login.html
+│   │   │   ├── novaTurma.html
+│   │   │   ├── perfil.html
+│   │   │   └── processo.html
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── forms.py
+│   │   ├── models.py
+│   │   ├── signals.py
+│   │   ├── tests.py
+│   │   ├── urls.py
+│   │   └── views.py
+│   ├── media/
+│   │   ├── finished_files/
+│   │   ├── imgCadastro/
+│   │   ├── imgFuncionarios/
+│   │   ├── imgHome/
+│   │   ├── imgInfo/
+│   │   ├── imgLogin/
+│   │   ├── imgNovaTurma/
+│   │   ├── imgPerfil/
+│   │   ├── imgPerfilEditar/
+│   │   └── in_progress_files/
+│   ├── RPA/
+│   │   ├── __pycache__/
+│   │   ├── __init__.py
+│   │   ├── asgi.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
+│   ├── static/
+│   │   ├── css/
+│   │   │   ├── styleArmazenamento.css
+│   │   │   ├── styleCadastro.css
+│   │   │   ├── styleCadInfo.css
+│   │   │   ├── styleEditarPerfil.css
+│   │   │   ├── styleFuncionarios.css
+│   │   │   ├── styleHome.css
+│   │   │   ├── styleLogin.css
+│   │   │   ├── styleNovaTurma.css
+│   │   │   ├── stylePerfil.css
+│   │   │   └── styleProcesso.css
+│   │   ├── img/
+│   │   └── js/
+│   │   │   ├── animationArmazenamento.js
+│   │   │   ├── animationCadastro.js
+│   │   │   ├── animationEditarPerfil.js
+│   │   │   ├── animationFuncionarios.js
+│   │   │   ├── animationHomeBtn.js
+│   │   │   ├── animationLogin.js
+│   │   │   ├── animationNovaTurma.js
+│   │   │   ├── animationProcesso.js
+│   │   │   ├── atualizacao.js
+│   │   │   └── clearForms.js
+│   ├── templates/
+│   │   ├── index.html
+│   │   └── navbar.html
+│   ├── db.sqlite3
+│   ├── downloaded_file
+│   └── manage.py
+├── config/
+│   ├── settings.py
+│   └── credentials.json
+├── venv/
+│   ├── Lib/
+│   ├── Scripts/
+│   └── pyvenv.cfg
+├── README.md
+
+
