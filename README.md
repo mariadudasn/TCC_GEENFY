@@ -114,6 +114,7 @@
 			<li><a href="#Python on Raspberry Pi">🐍Python on Raspberry Pi</a></li>
 			<li><a href="#Necessary Libraries for Deployment">📒Necessary Libraries for Deployment</a></li>
 			<li><a href="#Necessary Framework for Tests">📘Necessary Framework for Tests</a></li>
+			<li><a href="#Path Requirements for System Deployment"> ⚙ Path Requirements for System Deployment</a></li>
 		</ul>
 	<li text-decoration="none"><a href="#Create-by">❤Create by</a></li>
 </ul>
@@ -1368,6 +1369,22 @@ npx cypress open
 ```		
 </ul>
 </ul>
+<li id="Path Requirements for System Deployment"><b>Path Requirements for System Deployment</b></li>
+</br>
+	<p align="justify">
+		To ensure the proper functioning of the system, certain path configurations must be adjusted after downloading and installing the software. Since the system uses Django and specific Python scripts, it is essential to properly configure the deployment environment so that files can be located and handled correctly.
+
+Specifically, two paths need to be checked:
+	</p>
+ 	<ul>
+  		<li align="justify"><b>Python Interpreter Path:</b> The system relies on a Python interpreter installed on the device. Ensure that the path to the Python interpreter is correctly configured in the project environment, as it may vary depending on the operating system and the installation.</li>
+    <div align="center"><img src="https://github.com/user-attachments/assets/51959754-8916-4825-ae45-4de772399995" alt="View"></div>
+    <p align="center">View</p>
+      		<li align="justify"><b>Scripts Path:</b> The location where the Python scripts are stored must also be correctly configured. Depending on the device and system, the path may differ, and it is important to ensure that the script can locate all the necessary files and libraries for proper functioning.</li>
+	    <div align="center"><img src="https://github.com/user-attachments/assets/810603fc-7682-4386-95be-f2a6d82374da" alt="Script"></div>
+    		<p align="center">Automation script</p>
+  	</ul>
+   	<p align="justify">We recommend that users verify and adjust these paths as needed when configuring the system on a new device. This will ensure that all system components operate correctly, regardless of the deployment environment.</p>
 </ul>
 
 
