@@ -254,15 +254,16 @@ Thus, the use of Python in the development of this project is justified by its e
 	  		<li id="JavaScript"><b>JavaScript - ECMAScript 2023</b></li>
 			</br>
    			<p align="justify">
-O JavaScript é uma linguagem de programação amplamente utilizada na web para adicionar dinamismo e interatividade às páginas. Enquanto HTML estrutura o conteúdo e CSS define a aparência, o JavaScript traz vida às páginas, permitindo a criação de funcionalidades complexas, como animações, validações de formulários, atualizações em tempo real e interações personalizadas do usuário.
+      JavaScript is a programming language widely used on the web to add dynamism and interactivity to pages. While HTML structures the content and CSS defines the appearance, JavaScript brings pages to life, enabling the creation of complex functionalities such as animations, form validations, real-time updates, and customized user interactions.
 
-Uma das principais vantagens do JavaScript é sua execução diretamente nos navegadores, sem necessidade de compilação prévia. Isso possibilita respostas rápidas às ações do usuário, como cliques, movimentos do mouse ou entrada de dados, tornando a experiência mais fluida e envolvente. Além disso, a linguagem é versátil e pode ser usada tanto no lado do cliente quanto no lado do servidor, com tecnologias como o Node.js.
+One of JavaScript's main advantages is its ability to run directly in browsers without the need for prior compilation. This allows for quick responses to user actions, such as clicks, mouse movements, or data input, making the experience smoother and more engaging. Additionally, the language is versatile and can be used on both the client-side and the server-side, with technologies like Node.js.
 
-O JavaScript também se destaca por sua vasta comunidade e ecossistema. Milhares de bibliotecas e frameworks, como React, Angular e Vue.js, foram criados para facilitar o desenvolvimento de aplicações robustas e escaláveis. Essas ferramentas economizam tempo e oferecem soluções para problemas comuns, tornando o JavaScript uma escolha favorita entre os desenvolvedores.
+JavaScript also stands out for its vast community and ecosystem. Thousands of libraries and frameworks, such as React, Angular, and Vue.js, have been created to facilitate the development of robust and scalable applications. These tools save time and offer solutions to common problems, making JavaScript a favorite choice among developers.
 
-Outra característica importante é a integração com outras tecnologias. O JavaScript trabalha em conjunto com HTML e CSS, manipulando o DOM (*Document Object Model*) para atualizar dinamicamente o conteúdo das páginas sem necessidade de recarregá-las. Essa capacidade é crucial para criar aplicações modernas e responsivas, como as que vemos em redes sociais e serviços de e-commerce.
+Another important characteristic is its integration with other technologies. JavaScript works in conjunction with HTML and CSS, manipulating the DOM (Document Object Model) to dynamically update page content without requiring page reloads. This capability is crucial for creating modern and responsive applications, such as those found in social networks and e-commerce services.
 
-Por fim, o JavaScript é uma linguagem inclusiva e adaptável, sendo usada desde projetos simples até aplicações complexas. Sua presença onipresente na web e seu papel no desenvolvimento de experiências interativas e responsivas fazem do JavaScript uma peça-chave no mundo da tecnologia e um recurso indispensável para desenvolvedores que desejam criar soluções inovadoras e centradas no usuário.</p>
+Finally, JavaScript is an inclusive and adaptable language, used in everything from simple projects to complex applications. Its ubiquitous presence on the web and its role in developing interactive and responsive experiences make JavaScript a cornerstone in the world of technology and an indispensable resource for developers aiming to create innovative and user-centered solutions.
+</p>
 		</ul>
 	<li id="Markup-Language"><b>Markup Language</b></li>
  </br>
